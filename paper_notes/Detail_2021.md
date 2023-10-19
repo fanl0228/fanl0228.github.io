@@ -11,10 +11,13 @@ layout: notes
 
 
 - **应用场景：**
-    - ![iamge](./imgs/D2021_21_fig0.png)
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_21_fig0.png"  alt="image" width="80%" ></p>
+    </div>
 
-    - ![image](./imgs/D2021_21_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_21_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **贡献：**
     - 我们开发了 WaveEar，这是一种抗噪声的声音传感系统，它利用由近喉咙皮肤振动引起的毫米波信号的干扰来恢复人声。
@@ -23,16 +26,15 @@ layout: notes
 
     - 我们评估WaveEar 在不同环境噪声和其他因素（如感应距离、运动伪影和用户情绪状态）的干扰下的鲁棒性。 我们的结果表明，该系统实现了卓越的性能，并为在现代电子设备中实现普遍的 VUI 奠定了基础。
 
-
 - **整体框架：**
-    ![image](./imgs/D2021_21_fig2.png)
-
-
-- **思维导图**
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_21_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **实验环境：**
-    ![image](./imgs/D2021_21_fig3.png)
+        <div style="text-align:center">
+        <p><img src="./imgs/D2021_21_fig3.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 - **思考：** 感知声带振动显著性与功率有关？ 论文发射功率是多少？总功耗为1.23W
@@ -46,8 +48,9 @@ layout: notes
 - **摘要：** 在过去的十年中，面部地标跟踪和 3D 重建由于其在人机交互、面部表情分析和情感识别等众多应用中受到了广泛关注。传统方法要求用户被限制在特定的位置和面部 在受限的记录条件下（例如，没有遮挡且在良好的照明条件下）的摄像机。 这种高度受限的设置使它们无法部署在许多涉及人体运动的应用场景中。 在本文中，我们提出了第一个单耳机轻量级生物传感系统 BioFace-3D，它可以不显眼、连续、可靠地感知整个面部运动，跟踪 2D 面部标志，并进一步渲染 3D 面部动画。我们的单耳机生物传感系统利用跨模式迁移学习模型将包含在高级视觉面部标志检测模型中的知识迁移到低级生物信号域。经过训练，我们的 BioFace-3D 可以直接从生物信号中执行连续的 3D 面部重建，而无需任何视觉输入。这种从视觉传感到生物传感的范式转变不需要将摄像头放置在用户面前，这将为许多新兴的移动和物联网应用带来新的机遇。涉及不同设置的 16 名参与者的大量实验表明，BioFace-3D 可以准确跟踪 53 个主要面部标志，平均误差仅为 1.85 毫米，归一化平均误差为 3.38%，与大多数最先进的基于相机的解决方案相当。渲染出来的 3D 面部动画与真实的人类面部动作一致，也验证了系统在连续 3D 面部重建方面的能力。
 
 - **整体框架：** </br>
-    ![image](./imgs/D2021_20_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_20_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 ## 19. [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
@@ -60,12 +63,14 @@ layout: notes
 
 - **应用场景：** 给定任意两个无序图像集合 X 和 Y，我们的算法学习自动将图像从一个图像“翻译”到另一个图像，反之亦然：（左）来自 Flickr 的莫奈画作和风景照片； （中）来自 ImageNet 的斑马和马； （右）来自 Flickr 的夏季和冬季优胜美地照片。 示例应用（下）：使用著名艺术家的画作集合，我们的方法学习将自然照片渲染成各自的风格。
 
-    ![image](./imgs/D2021_19_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_19_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **算法原理：** 采用两个生成器$G$，$F$和两个判别器$D_x$和$D_y$
-    ![image](./imgs/D2021_19_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_19_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 ## 18. [UltraSE: Single-Channel Speech Enhancement Using Ultrasound](http://xyzhang.ucsd.edu/papers/Ke.Sun_MobiCom21_UltraSE.pdf)
 - **阅读时间：** 2022-2-9
@@ -75,15 +80,16 @@ layout: notes
 - **摘要：** 鲁棒语音增强被认为是音频处理的圣杯，也是人机交互的关键要求。使用单通道、纯音频方法解决此任务仍然是一个开放的挑战，特别是对于涉及竞争扬声器和背景噪声混合的实际场景。在本文中，我们提出了 UltraSE，它使用超声波传感作为一种补充模式，将所需说话者的声音从干扰和噪声中分离出来。 UltraSE 使用商品移动设备（例如智能手机）发射超声波并捕捉说话者发音手势的反射。它引入了一种多模态、多领域的深度学习框架来融合超声多普勒特征和可听语音频谱图。此外，它采用基于跨模态相似性测量网络的对抗性训练鉴别器来学习两种异构特征模态之间的相关性。我们的实验验证了 UltraSE 同时提高了语音清晰度和质量，并且大大优于最先进的解决方案。
 
 - **整体框架：** UltraSE 针对用户手持智能手机在嘈杂环境中录制语音的场景。 UltraSE 使用超声波感应作为一种补充模式，将所需说话者的声音与干扰分开。
-
-    ![image](./imgs/D2021_18_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_18_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **动机：** 利用超声波信号来增强语音信息
     
 - **整体方案：**
-![image](./imgs/D2021_18_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_18_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
     - 1. 获取语音信息，高通滤波分离出超声波信号，超声波获取多普勒频移，语音获取语谱图
     - 2. 利用语谱图和超声波时频图训练GAN网络
@@ -98,12 +104,13 @@ layout: notes
 - **摘要：** 新兴的自动驾驶系统需要可靠地感知 3D 环境。不幸的是，当前的主流感知方式，即相机和激光雷达，在具有挑战性的光照和天气条件下很脆弱。另一方面，尽管它们全天候运行，但今天的车载雷达仅限于位置和速度检测。在本文中，我们介绍了 MilliPoint，这是一个实用的系统，可提高雷达传感能力以生成 3D 点云。 MilliPoint 的关键设计原则在于能够在低成本商用车雷达上实现合成孔径雷达 (SAR) 成像。为此，MilliPoint 对信号变化与雷达运动的关系进行建模，实现雷达在波长尺度精度的自跟踪，从而实现相干空间采样。此外，MilliPoint 通过后期成像处理正确聚焦目标，解决了镜面反射的独特问题。它还利用雷达的内置天线阵列来估计反射点的高度，并最终生成 3D 点云。我们已经在商用车辆雷达上实施了 MilliPoint。我们的评估结果表明，与现有的车载雷达解决方案相比，MilliPoint 有效地对抗运动误差和镜面反射，并且可以构建具有更高密度和分辨率的 3D 点云。
 
 - 实验效果：
-    ![image](./imgs/D2021_17_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_17_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 - 实验平台：
-
-    ![image](./imgs/D2021_17_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_17_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 
@@ -131,8 +138,10 @@ layout: notes
     2. 手势分类和检测
         - 自组织映射（SOM）是一种基于人工神经网络的数据分析方法，可以区分大量不同的输入数据，并自动将它们分类成有序的聚类
         - 学习矢量化（LVQ）是一种监督学习方法，原理类似SOM
-    ![image](./imgs/D2021_16_fig1.png)
 
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_16_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **评估内容：**
     1. 手势和评估场景，8种不同手势，4种场景，两个radar获取AOA数据
@@ -154,8 +163,9 @@ layout: notes
 
 - 本文主要研究的是由数字或字母组成的私人信息，如社会保险号、密码、信用卡号等。
 
-    ![image](./imgs/D2021_15_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_15_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 ### 论文详情
 1. 介绍：研究内容，相关研究情况，本文研究内容，3个挑战，3个贡献
@@ -176,8 +186,9 @@ layout: notes
     - 信号滤波
     - 基于CGAN的声音Refinement
 
-    ![image](./imgs/D2021_15_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_15_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 6. 单音性能评估
     - 实验配置，发送环境，声音特征，硬件，分析SNR，贴RFID的材料
@@ -200,8 +211,9 @@ layout: notes
 - **摘要:** 随着语音控制设备的不断增长，语音指标已被广泛用于用户识别。然而，语音生物识别技术容易受到重放攻击和环境噪声的影响。我们发现语音生物识别技术的根本漏洞在于其间接传感模式（例如麦克风）。在本文中，我们介绍了 VocalPrint，这是一种弹性毫米波询问系统，可直接捕获和分析用于用户身份验证的声音振动。具体来说，VocalPrint 利用了用户喉咙附近区域周围皮肤反射射频 (RF) 信号的独特干扰，这是由通信期间的声音振动引起的。使用新颖的弹性感知杂波抑制方法将复杂的环境噪声与 RF 信号隔离，以保留细粒度的声音生物特征。之后，我们提取与文本无关的声道和声源特征，并将它们输入到集成分类器中进行用户身份验证。 VocalPrint 非常实用，因为它利用低成本、便携和节能的硬件，可以轻松过渡到智能手机，同时由于其非接触性质，具有作为典型语音认证系统的足够可用性。我们对 41 名具有不同询问距离、方向和身体动作的参与者的实验结果表明，即使在不利条件下，VocalPrint 也可以达到 96% 以上的身份验证准确率。我们展示了我们的系统对各种威胁级别的复杂噪声干扰和欺骗攻击的弹性。
 
 - **系统应用场景：（声带认证）**
-
-    ![image](./imgs/D2021_14_fig1.png)
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_14_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 - **挑战：**
@@ -214,8 +226,9 @@ layout: notes
 
 - **整体框架：** VocalPrint 的概述主要包括用于感知声音振动的毫米波询问模块、用于消除复杂噪声的弹性感知杂波抑制模块以及用于识别合法用户以对抗冒名顶替者的身份验证模块。
 
-    ![image](./imgs/D2021_14_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_14_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 
@@ -227,9 +240,9 @@ layout: notes
 - **摘要：** 亚马逊 Echo 和 Google Home 等家庭助理设备在过去几年变得非常流行。然而，由于其语音控制功能，聋人和听力障碍 (DHH) 人士无法使用这些设备。鉴于美国有超过 50 万人使用美国手语 (ASL) 进行交流，因此需要一个可以识别 ASL 的家庭助理系统。这项工作的目标是为 DHH 用户设计一个家庭助理系统（简称 mmASL），可以使用 60 GHz 毫米波无线信号进行 ASL 识别。 mmASL 有两个重要组成部分。首先，它可以使用空间频谱图执行可靠的唤醒词检测。其次，使用可扩展的多任务深度学习模型，mmASL 可以学习 ASL 符号的语音特性，并使用它们来准确识别 ASL 符号。我们在具有相控阵的 60 GHz 软件无线电平台上实施 mmASL，并使用来自 15 个签名者、50 个 ASL 标志和超过 12K 标志实例的大规模数据收集对其进行评估。我们表明 mmASL 可以容忍其他干扰用户及其活动、环境变化和不同用户位置的存在。我们将 mmASL 与经过充分研究的基于 Kinect 和 RGB 相机的 ASL 识别系统进行比较，发现它可以实现可比的性能（标志识别的平均准确率为 87%），验证了使用 60 GHz 毫米波系统进行 ASL 标志识别的可行性。
         
 - **系统框架：**    
-
-    ![image](./imgs/D2021_13_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_13_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **特点：**
     1. 它利用 60 GHz 室内信道的方向性和信道稀疏性，使 ASL 识别能够容忍房间内其他人（移动或静止）的存在。
@@ -252,8 +265,9 @@ layout: notes
 
 - **整体框架：** EchoPrint 从听筒扬声器发出几乎听不见的声音信号，以“照亮”用户的面部。 从回声中提取的声学特征与来自正面摄像头的视觉面部标志相结合，以验证用户身份。
 
-    ![image](./imgs/D2021_12_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_12_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **挑战：**
     - i. 回声信号对用户面部和设备之间的相对位置(如，姿势)非常敏感，这使得提取可靠的姿势不敏感特征用于鲁棒认证变得非常困难
@@ -274,9 +288,9 @@ layout: notes
 - 摘要：唇读旨在从无声唇视频中预测口语。由于此类视觉任务的性能通常比其对应的语音识别差，因此一种潜在的方案是从经过音频信号预训练的教师那里提炼知识。然而，**跨模态数据之间的潜在域差距可能导致学习上的歧义，从而限制了唇读的表现**。在本文中，我们提出了一种新颖的唇读协作框架，并考虑了两个方面的问题：1）教师应该理解双模态知识以可能弥合固有的跨模态差距； 2）教师应根据学生的发展情况，适应性地调整教学内容。为此，我们引入了一个可训练的“主”网络，它可以同时摄取音频信号和无声唇部视频，而不是预训练的教师。 master从三种特征模态生成logits：音频模态、视频模态及其组合。为了进一步提供一种交互式策略来有机地融合这些知识，我们通过学生的特定任务反馈来规范master，其中隐含了学生的要求。同时，我们将几个“导师”网络纳入我们的系统，作为灵活强调卓有成效的知识的指导。此外，我们纳入了课程学习设计，以确保更好的融合。大量实验表明，所提出的网络在多个基准测试中优于最先进的方法，包括在单词级和句子级场景中。 
 
 - **整体框架：**
-
-    ![image](./imgs/D2021_11_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_11_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **背景介绍：**
     - 唇读，也被称为视觉语音识别，旨在预测从无声的唇视频中说出的单词或句子。这个视觉任务可以在不依赖听觉的情况下将语音转换为文本，因此，它可以应用于许多实际场景，如无声电影配音、**为失语症患者创造声音（creating a voice for aphonia patients）**、为安全系统服务。一种可能的解决方案是通过知识蒸馏(KD)将音频数据中的知识转移到视频数据中，
@@ -300,9 +314,12 @@ layout: notes
 
 - **整体框架：**
 
-    ![image](./imgs/D2021_10_fig1.png)
-    ![image](./imgs/D2021_10_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_10_fig1.png"  alt="image" width="80%" ></p>
+    </div>
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_10_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **动机：** Wi-Fi感知唇语
 
@@ -336,17 +353,22 @@ layout: notes
 - **摘要：** 当除了由雷达目标的整体运动引起的恒定多普勒频移外，目标或目标上的任何结构都经历微运动动力学，例如机械振动或旋转时，微运动动力学会引起多普勒调制 返回的信号，称为微多普勒效应。 我们介绍了雷达中的微多普勒现象，建立了多普勒调制模型，推导了目标振动、旋转、翻滚和圆锥运动引起的微多普勒公式，并通过仿真研究对其进行了验证，分析了时变微多普勒 使用高分辨率时频变换的特征，并演示在真实雷达数据中观察到的微多普勒效应。
 
 - **Micro-Doppler模型：** 目标振动和旋转
-![image](./imgs/D2021_9_fig1.png)
-![image](./imgs/D2021_9_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_9_fig1.png"  alt="image" width="80%" ></p>
+    </div>
+        <div style="text-align:center">
+        <p><img src="./imgs/D2021_9_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 ## 8. [Analysis of micro-Doppler signatures](https://cs.gmu.edu/~fli/papers/ANALYSIS%20OF%20MICRO-DOPPLER%20SIGNATURES.pdf)
 - **阅读日期：** 2021.12.19
 - **修改日期：** 2022-9-28
 - **关键词：** 主要介绍基本的micro-doppler数学模型，包括振动、旋转
 - **摘要：** 目标或目标结构的机械振动或旋转可能会对返回的雷达信号产生额外的频率调制，这会产生关于目标多普勒频率的边带，称为微多普勒效应。 微多普勒特征能够确定目标的某些特性。 本文介绍了雷达中的微多普勒效应，并发展了微多普勒特征的数学计算。 计算机模拟进行并利用联合时频域中的微多普勒特征。
-![image](./imgs/D2021_8_fig1.png)
 
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_8_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 ## 7. [ThermoWave: a new paradigm of wireless passive temperature monitoring via mmWave sensing](https://dl.acm.org/doi/10.1145/3372224.3419184)
@@ -360,8 +382,10 @@ layout: notes
 - **摘要：** 温度传感器是物联网时代应用最广泛的技术之一。无线温度监控系统部署方便，可推动智能家居、交通、物流等领域的大规模应用。目前，无线温度监测产品基于微电子和半导体元件，成本效益不高（例如几美元），更重要的是会产生电子废物。在这项工作中，我们展示了 ThermoWave，这是一种生态、无电池和超低成本的无线温度监测新方法。具体来说，ThermoWave 是基于对毫米波（mmWave）信号的热散射效应。具体来说，胆固醇材料在不同的环境温度下排列它们的分子模式，这种温度引起的模式变化将被散射的毫米波信号调制和感知。 ThermoWave 系统中有三个功能模块。 ThermoTag 是一种胆固醇材料的油墨薄膜或纸质标签，可以方便地贴在感兴趣的物体上以监测温度变化。每个 ThermoTag 的成本不到 0.01 美元。温度调制的毫米波散射将由基于毫米波雷达的 ThermoScanner 接收，并由基于软件的温度解码器 ThermoSense 解调，该解码器包括用于点温度估计的基于模型的方法（即 ThermoDot）和数据驱动的方法（即, ThermoNet) 用于热成像。我们在受控和实际设置中对 ThermoWave 系统性能进行原型设计和评估。实验结果表明，ThermoWave 在受控设置中在 30°F 至 120°F 的范围内实现了 ±1.0°F 的精度。我们还研究了实际应用中的性能，并且 ThermoWave 在温度估计中可以达到 ±3.0°F 的精度。我们还在设计和实验中测试和讨论 ThermoWave 的可持续性、耐用性、稳健性和成本效益。
 
 - **整体框架：** 介绍了 ThermoWave 范例及其三个核心模块（即 ThermoTag、ThermoScanner 和 ThermoSense）。 ThermoTag 可以放在手腕上测量皮肤温度，放置在床上测量环境温度，以及放置在床单上进行身体热成像。 ThermoScanner 不断询问 ThermoTag 以捕获温度外壳热散射响应，然后将响应信号发送到 ThermoDot 模型和 ThermoNet 模型，分别获得逐点温度读数和热成像。
-![image](./imgs/D2021_7_fig1.png)
 
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_7_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **特征提取：** </br>
     1. 从[小波变换](https://zhuanlan.zhihu.com/p/22450818)中实现特征提取，可以准确有效地描述频移信号，而无需担心噪声信号影响传感精度。
@@ -378,8 +402,10 @@ layout: notes
     1）集成学习允许多个回归器生成独立的预测结果，并以更好的置信度将它们聚合成最终决策。由每个独立回归器的准确度赋予权重，以提高最终决策的准确度，从而实现更高的准确度。
 
     - 3. Bagging 允许低方差值，使输出在温度预测中更加稳定，从而防止过拟合。一系列特征数组被输入到bagging模型中，该模型利用算法1中的ThermoDot模型进行回归预测并返回对应于特征数组的温度估计。在将特征向量列表作为输入和温度值列表作为基本事实馈送装袋回归器后，回归器求解​​离散参数以拟合训练数据。然后，生成的 ThermoDot 模型将采用热散射响应并返回单值温度输出，如图 7 所示。
-![image](./imgs/D2021_7_fig2.png)
 
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_7_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **ThermoNet 模型构建** </br>
     - 1. 为了解决光谱图像到热成像的映射问题，光谱图像中的像素必须映射到热图像中的像素。 这种映射不仅要捕捉一般的颜色与颜色的关系，还要捕捉图像结构，它封装了热图像上的温度分布
@@ -397,8 +423,9 @@ layout: notes
 - **实验结果对比：** 
     
     ThermoNet 生成的热图像与地面实况之间的比较。 ThermoNet 能够捕获热图像的细节并在预测中重新生成它们，从而使使用边缘检测的目标检测成为可能。 凭借大量的训练样本，ThermoNet 满足了在未经训练的（测试集）场景中生成热图像的期望，这些场景在图像结构和图像细节方面也非常接近真实情况。
-    ![image](./imgs/D2021_7_fig3.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_7_fig3.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 ## 6. [CardiacWave: A mmWave-based Scheme of Non-Contact and High-Definition Heart Activity Computing](https://dl.acm.org/doi/10.1145/3478127)（UbiComp'2021)
@@ -412,15 +439,18 @@ layout: notes
 - **摘要：** 使用无线信号监测人体生命体征，尤其是心跳信息，在过去十年中得到了深入研究。这种非接触式传感模式可以推动心脏健康、睡眠和情绪管理等各种应用。在 COVID-19 大流行的情况下，非接触式心脏监测受到越来越多的市场需求。然而，现有的无线心脏监测方案只能检测有限的心脏活动，例如心率、基准点和类似心电图 (SCG) 的信息。在本文中，我们介绍 CardiacWave 以实现非接触式高清心脏监测。 CardiacWave 可以提供全方位的类似心电图 (ECG) 的心脏活动，包括 P 波、T 波和 QRS 复合波的详细信息。具体而言，CardiacWave 建立在 Cardiac-mmWave 散射效应 (CaSE) 之上，这是在毫米波询问下心脏电磁场的可变频率响应。 CardiacWave 设计包括用于询问 CaSE 的抗噪声传感方案和用于从询问响应中提取心脏电活动的心脏活动分析模块。我们的实验表明，由 CardiacWave 引起的 ECG 测量与心脏活动基本事实（即来自医疗级仪器的测量）具有高度的正相关性。 P波、T波和QRS波群的时间差分别为0.67%、0.71%和0.49%，平均心脏事件差在5.3毫秒的延迟内。这些结果表明 CaridacWave 具有高保真度和完整的心脏临床特征。此外，我们在各种条件下与参与者一起评估 CardiacWave 系统，包括心率和呼吸频率、年龄和心脏习惯（例如，吸烟）。
 
 - **应用场景：** CardiacWave 是一种非接触式传感解决方案，通过胸部的毫米波散射来监测高清心脏活动。
-    ![image](./imgs/D2021_6_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_6_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **整体框架：** CardiacWave 利用毫米波来询问心脏 EM 场。 散射的毫米波响应被馈送到特征提取和心脏活动分析模块以重建多通道心电图信号。
-    ![image](./imgs/D2021_6_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_6_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 - **实验配置：**
-    ![image](./imgs/D2021_6_fig3.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_6_fig3.png"  alt="image" width="80%" ></p>
+    </div>
 
 ## 5. [Wavoice: A Noise-resistant Multi-modal Speech Recognition System Fusing mmWave and Audio Signals](https://dl.acm.org/doi/abs/10.1145/3485730.3485945)（SenSys'2021）
 - **阅读日期：** 2021.10
@@ -430,8 +460,9 @@ layout: notes
 - **摘要：** 随着自动语音识别的进步，语音用户界面最近越来越流行。自 COVID-19 大流行以来，VUI 因其非接触性而在在线交流中越来越受欢迎。此外，由于需要高信噪比的纯音频语音识别方法，各种环境噪声阻碍了语音用户界面的公共应用。在本文中，我们介绍了 Wavoice，这是第一个抗噪多模态语音识别系统，它融合了两种不同的语音传感模态，即毫米波 (mmWave) 信号和来自麦克风的音频信号。一项关键贡献是我们对毫米波和音频信号之间的内在相关性进行建模。基于它，Wavoice 促进了来自多个扬声器的实时抗噪语音活动检测和用户定位。此外，我们将两个新模块详细阐述到用于多模态信号融合的神经注意力机制中，并导致准确的语音识别。大量实验验证了 Wavoice 在各种条件下的有效性，7 米范围内的字符识别错误率低于 1%。 Wavoice 以更低的字符错误率和单词错误率优于现有的纯音频语音识别方法。复杂场景下的评测验证了Wavoice的鲁棒性
 
 - **整体框架：** Wavoice，一种多模式语音识别系统，利用毫米波雷达和低成本麦克风来提高复杂环境中的抗噪声和运动干扰能力。
-![image](./imgs/D2021_5_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_5_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 ## 4. [Tesla-Rapture: A Lightweight Gesture Recognition System from mmWave Radar Point Clouds](https://arxiv.org/abs/2109.06448)  
@@ -441,8 +472,9 @@ layout: notes
 - **摘要：** 我们展示了 Tesla-Rapture，这是一种用于毫米波雷达生成的点云的手势识别界面。最先进的手势识别模型要么过于消耗资源，要么不够准确，无法使用可穿戴设备或受限设备（例如 IoT 设备（例如 Raspberry PI）、XR 硬件（例如 HoloLens）或智能手机）集成到现实生活场景中。为了解决这个问题，我们开发了 Tesla，这是一种用于毫米波雷达点云的消息传递神经网络 (MPNN) 图卷积方法。该模型在准确性方面优于两个数据集的最新技术，同时降低了计算复杂性，从而减少了执行时间。特别是，该方法能够比最准确的竞争对手预测手势快近 8 倍。我们在不同场景（环境、角度、距离）下的性能评估表明，Tesla 具有良好的泛化能力，在具有挑战性的场景（例如穿墙设置和极端角度感应）中，准确率提高了 20%。利用 Tesla，我们开发了 Tesla-Rapture，这是一种在 Raspberry PI 4 上使用毫米波雷达的实时实现，并评估其准确性和时间复杂度。我们还发布了源代码、经过训练的模型以及嵌入式设备模型的实现。 
 
 - **整体框架：** Tesla-Rapture 的概述结构。 雷达通过雷达处理管道将 IQ 样本转换为点云，然后将其馈送到 Raspberry Pi 4 进行进一步处理和推断手势。
-![image](./imgs/D2021_4_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_4_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 
 ## 3. [Osprey: A mmWave Approach to Tire Wear Sensing](https://dl.acm.org/doi/pdf/10.1145/3386901.3389031)
@@ -458,12 +490,14 @@ layout: notes
 - 我们在安装在机械、轮胎旋转装置和乘用车上的商用轮胎上评估 Osprey。我们在不同类型的碎片、不同程度的碎片、不同的地形和不同程度的汽车振动的情况下，以不同的速度测试鱼鹰。在我们所有的实验中，我们实现了 0.68 毫米的中值绝对轮胎磨损误差。 Osprey 还能以 1.7 厘米的误差定位卡在轮胎中的异物，并以 92% 的准确度检测金属异物。
 
 - **应用场景：** 毫米波实现车辆轮胎检测
-![image](./imgs/D2021_3_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_3_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **整体框架：**  Osprey 的架构：（1）生成超分辨率 ISAR 轮胎图像（2）使用编码过滤掉碎片以获得胎面深度（3）检测和定位异物。
-![image](./imgs/D2021_3_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_3_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 ## 2. [See Through Smoke: Robust Indoor Mapping with Low-cost mmWave Radar](https://dl.acm.org/doi/10.1145/3386901.3388945)
 - **阅读日期：** 2021-9
@@ -473,8 +507,9 @@ layout: notes
 - **摘要：** 本文介绍了miliMap的设计、实现和评估，这是一种基于单芯片毫米波(mmWave)雷达的室内测绘系统，针对低能见度环境以协助应急响应。 millMap的一个独特之处在于它仅利用低成本、现成的毫米波雷达，但可以重建与激光雷达相当的精度的密集网格地图，并提供地图上对象的语义注释。milliMap做出了两个关键的技术贡献。首先，它通过结合训练期间来自同位激光雷达的跨模态监督和室内空间的强几何先验，自主克服了毫米波信号的稀疏性和多径噪声。其次，它将毫米波反射的光谱响应作为特征来稳健地识别不同类型的物体，例如。门、墙壁等。在不同室内环境中的大量实验表明，milliMap可以实现小于0.2m的地图重建误差，并以约90%的准确度对关键语义进行分类，同时在浓烟中运行。
 
 - **应用场景：**
-![image](./imgs/D2021_2_fig1.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_2_fig1.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **贡献：**
     - 基于移动机器人的映射系统，使用单芯片毫米波雷达在低能见度室内环境中进行占用网格映射和语义映射。
@@ -491,8 +526,11 @@ layout: notes
 - **摘要：** 振动测量是工业系统中的一项关键任务，其中振动特性反映了物体的健康状况并指示了物体的异常情况。 以前的方法要么以侵入性方式工作，要么无法捕获微米级振动。 在这项工作中，我们提出了 mmVib，这是一种使用毫米波雷达测量微米级振动的实用方法。 通过引入多信号合并 (MSC) 模型来描述反射信号的特性，我们利用这些信号之间的内在一致性来准确恢复振动特性。 我们实现了一个 mmVib 原型，实验表明，该设计实现了 8.2% 的相对幅度误差和 0.5% 的中值相对频率误差。 通常，对于 100𝑢𝑚 振幅振动，中值振幅误差为 3.4𝑢𝑚。 与现有的两种方法相比，mmVib将80𝑡ℎ-percentile 幅度误差分别降低了62.9%和68.9%。
 
 - **整体框架：**    
-![image](./imgs/D2021_1_fig2.png)
-
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_1_fig2.png"  alt="image" width="80%" ></p>
+    </div>
 
 - **MSC模型思想：**
-![image](./imgs/D2021_1_fig1.png)
+    <div style="text-align:center">
+        <p><img src="./imgs/D2021_1_fig1.png"  alt="image" width="80%" ></p>
+    </div>
