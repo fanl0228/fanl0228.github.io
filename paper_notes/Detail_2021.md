@@ -10,29 +10,10 @@ layout: default
 - **摘要：** 通过从根本上发展用户和设备之间的信息共享，语音用户界面 (VUI) 已成为现代个人设备（e.g，智能手机、语音助手）中不可或缺的组成部分。 VUI 的声学传感旨在感知所有声学对象；然而，现有的 VUI 机制只能提供低质量的语音感知。这是由于复杂环境噪声的可听和不可听干扰通过导致用户请求的拒绝服务 (DoS) 来限制 VUI 的性能。因此，在 VUI 中启用抗噪声语音传感以在稳健的环境中以卓越的效率和精度执行关键任务至关重要。为此，我们研究了使用射频信号（例如毫米波 (mmWave)）来感知个人抗噪声语音的可行性。我们首先对声音生成的基本原理和由此产生的声音振动进行深入研究。根据获得的见解，我们提出了WaveEar，一种端到端的抗噪声语音传感系统。WaveEar 包含一个低成本的毫米波探头，用于在多人中定位说话者的位置，并将毫米波信号引导到喉咙附近区域用于感知他/她的声音振动的扬声器。接收到的包含语音信息的信号被馈送到我们新颖的深度神经网络，以通过详尽的提取来恢复语音。我们在 21 名参与者的真实场景下进行的实验评估表明，WaveEar 能够准确推断抗噪语音并在现代电子设备中实现普遍的 VUI。 
 
 
-
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-## iamge
-![image](./imgs/D2021_21_fig1.png)
-
-## image 2
-![im](https://fanl0228.github.io/paper_notes/imgs/D2021_21_fig0.png)
-    
-
 - **应用场景：**
-<div style="text-align:center">
-    <p align="center">
-        <img src="https://fanl0228.github.io/paper_notes/imgs/D2021_21_fig0.png", width="80%">
-    </p>
-</div>
-<div style="text-align:center">
-    <p align="center">
-        <img src="./imgs/D2021_21_fig1.png", width="80%">
-    </p>
-</div>
+    - ![Application](./imgs/D2021_21_fig0.png)
 
+    - ![Application2](./imgs/D2021_21_fig1.png)
 
 
 - **贡献：**
@@ -45,9 +26,7 @@ layout: default
 
 - **整体框架：**
 <div style="text-align:center">
-    <p align="center">
-        <img src="imgs/D2021_21_fig2.png", width="80%">
-    </p>
+    <img src="imgs/D2021_21_fig2.png", width="80%">
 </div>
 
 - **思维导图**
