@@ -12,7 +12,7 @@ layout: default
 
     <img src="https://fanl0228.github.io/paper_notes/imgs/D2021_21_fig0.png", width="80%">
 
-    <img src="./imgs/D2021_21_fig1.png", width="80%">
+    ![image]("./imgs/D2021_21_fig1.png", width="80%")
 
 - **应用场景：**
 <div style="text-align:center">
@@ -25,6 +25,8 @@ layout: default
         <img src="./imgs/D2021_21_fig1.png", width="80%">
     </p>
 </div>
+
+
 
 - **贡献：**
     - 我们开发了 WaveEar，这是一种抗噪声的声音传感系统，它利用由近喉咙皮肤振动引起的毫米波信号的干扰来恢复人声。
