@@ -11,9 +11,9 @@ layout: default
 
 
 - **应用场景：**
-    - ![Application](./imgs/D2021_21_fig0.png)
+    - ![iamge](./imgs/D2021_21_fig0.png)
 
-    - ![Application2](./imgs/D2021_21_fig1.png)
+    - ![image](./imgs/D2021_21_fig1.png)
 
 
 - **贡献：**
