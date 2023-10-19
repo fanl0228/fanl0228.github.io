@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notes
 ---
 
 ## 21. [WaveEar: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface](https://cse.buffalo.edu/~wenyaoxu/papers/conference/xu-mobisys2019b.pdf)

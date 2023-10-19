@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notes
 ---
 
 ## 26.[Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://han-jinsong.github.io/hanjinsong.github.com/mmFace_success_final.pdf)

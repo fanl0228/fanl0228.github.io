@@ -1,6 +1,17 @@
 title: Long Fan (樊龙)
+email: longfan416@gmail.com
 description: 
 show_downloads: false
 google_analytics:
+github_username: fanl0228
+
+# Build settings
 theme: jekyll-theme-slate
+#
 highlighter: rouge
+
+
+
+
+
+

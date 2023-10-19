@@ -1,36 +1,6 @@
-<!--
- * @Author: fanlong
- * @Date: 2022-09-29 10:06:53
- * @LastEditors: fanlong
- * @LastEditTime: 2023-02-16 10:57:21
- * @FilePath: \01_paperNote-nju\Paperlist_2022_2023.md
- * @Description: 
- * 
- * @github: https://github.com/fanl0228
- * @Email: fanl@smail.nju.edu.cn
- * Copyright (c) 2022 by fanlong/Nanjing University, All Rights Reserved. 
--->
-<!-- 
-
-## 2. [Through](https)
-- **阅读时间：** 
-- **出处：** 
-- **关键词：** 
-- **摘要：** 
-
-- **应用场景：** </br> 
-    <div style="text-align:center">
-        <img src="imgs/P2022_2_fig1.png", width="100%">
-    </div>
-    
-- **系统框架：**
-
-    <div style="text-align:center">
-        <img src="imgs/P2022_2_fig2.png", width="100%">
-    </div> 
-    
--->
-
+---
+layout: notes
+---
 
 ## 5. [A Projective Geometric View for 6D Pose Estimation in mmWave MIMO Systems](https://arxiv.org/abs/2302.00227)
 - **阅读时间：** 2023-2-13
