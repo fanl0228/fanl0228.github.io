@@ -3,8 +3,8 @@
  * @Author: fanlong
  * @Date: 2023-02-16 13:27:36
  * @LastEditors: fanlong
- * @LastEditTime: 2023-09-19 10:36:44
- * @FilePath: \01_paperNote-nju\Paperlist.md
+ * @LastEditTime: 2023-10-19 15:57:31
+ * @FilePath: \fanl0228.github.io\paper_notes\Paperlist.md
  * @Description: 
  * 
  * @github: https://github.com/fanl0228
@@ -41,26 +41,8 @@ Compressed sensing
 rate-distortion theory, distortion metric
 AWR6843的FOV修改，提高角度分辨率 -->
 
-MobiSys23无线感知论文整理: 
-https://zhuanlan.zhihu.com/p/638914192
-
-## 4. [Through](https)
-- **阅读时间：** 
-- **出处：** 
-- **关键词：** 
-- **摘要：** 
-
-- **应用场景：** </br> 
-    <div style="text-align:center">
-        <img src="imgs/png", width="80%">
-    </div>
-    
-- **系统框架：**
-
-    <div style="text-align:center">
-        <img src="imgs/png", width="80%">
-    </div> 
-
+<!-- MobiSys23无线感知论文整理: 
+https://zhuanlan.zhihu.com/p/638914192 -->
 
 
 ## 47. [Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi](https)
