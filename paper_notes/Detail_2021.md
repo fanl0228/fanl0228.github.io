@@ -26,7 +26,7 @@ layout: default
 
 - **整体框架：**
 <div style="text-align:center">
-    <img src="imgs/D2021_21_fig2.png", width="80%">
+    ![image](imgs/D2021_21_fig2.png)
 </div>
 
 - **思维导图**
