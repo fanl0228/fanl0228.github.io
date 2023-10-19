@@ -12,7 +12,7 @@ layout: default
 - **应用场景：**
 <div style="text-align:center">
     <p align="center">
-        <img src="./imgs/D2021_21_fig0.png", width="80%">
+        <img src="https://fanl0228.github.io/paper_notes/imgs/D2021_21_fig0.png", width="80%">
     </p>
 </div>
 <div style="text-align:center">
