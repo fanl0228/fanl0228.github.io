@@ -32,7 +32,7 @@ layout: notes
     </div>
 
 - **实验环境：**
-        <div style="text-align:center">
+    <div style="text-align:center">
         <p><img src="./imgs/D2021_21_fig3.png"  alt="image" width="80%" ></p>
     </div>
 
