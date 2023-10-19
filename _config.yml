@@ -10,8 +10,9 @@ theme: jekyll-theme-slate
 #
 highlighter: rouge
 
-
-
-
+# pages
+notepage: Notes
+aboutpage: About
+homepage: Home
 
 

@@ -5,7 +5,7 @@ layout: author
  * @Author: fanlong
  * @Date: 2023-10-19 11:12:50
  * @LastEditors: fanlong
- * @LastEditTime: 2023-10-19 20:07:38
+ * @LastEditTime: 2023-10-19 21:04:15
  * @FilePath: \fanl0228.github.io\another-page.md
  * @Description: 
  * 
@@ -15,6 +15,5 @@ layout: author
 -->
 ## Welcome to another page
 
-_yay_
 
 [back](./)
