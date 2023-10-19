@@ -2,7 +2,7 @@
 layout: notes
 ---
 
-## 6. [PaperName](https)
+<!-- ## 6. [PaperName](https)
 - **阅读时间：** 2023-3-26
 - **出处：**
 - **关键词：**
@@ -10,7 +10,7 @@ layout: notes
 
 - **应用场景：** </br>
     <div style="text-align:center">
-        <img src="imgs/ _fig1.png", width="100%">
+        <img src="imgs/ _fig1.png" alt="image" width ="100%">
     </div>
     
 - **动机：**
@@ -29,7 +29,7 @@ layout: notes
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/ _fig2.png", width="100%">
+        <img src="imgs/ _fig2.png" alt="image" width ="100%">
     </div>
     - <b>1. </b>
     - <b>2. </b>
@@ -38,10 +38,10 @@ layout: notes
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/ _fig3.png", width="100%">
+        <img src="imgs/ _fig3.png" alt="image" width ="100%">
     </div>
 
-- **读后感：** 
+- **读后感：**  -->
 
 ## 5. [IndexPen: Two-Finger Text Input with Millimeter-Wave Radar](https://www.researchgate.net/publication/361826003_IndexPen_Two-Finger_Text_Input_with_Millimeter-Wave_Radar)
 - **阅读时间：** 2023-3-12
@@ -53,12 +53,12 @@ layout: notes
 - **应用场景：** </br> 
     IndexPen可以在物理尺寸有限的设备上进行空中两指文本输入，不需要在手上佩戴仪器。例如，它可以在自动取款机等公共设备上提供非接触式打字界面，以改善卫生状况。它为在小屏幕上打字提供了一种替代方案，在小屏幕上打字具有挑战性，语音输入不合适或不可行。IndexPen可以识别类似手写的手势，包括30个类。该系统处理微型雷达设备生成的速度和角度轮廓，并使用神经网络检测手势。
     <div style="text-align:center">
-        <img src="imgs/D2023_5_fig1.png", width="80%">
+        <img src="imgs/D2023_5_fig1.png" alt="image" width ="80%">
     </div>
 
     - 30种手势的定义：
     <div style="text-align:center">
-        <img src="imgs/D2023_5_fig2.png", width="80%">
+        <img src="imgs/D2023_5_fig2.png" alt="image" width ="80%">
     </div>
 
 
@@ -72,7 +72,7 @@ layout: notes
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2023_5_fig3.png", width="100%">
+        <img src="imgs/D2023_5_fig3.png" alt="image" width ="100%">
     </div>
     - <b>1. 硬件配置</b>  Texas Instrument’s IWR6843AoP，配置Range_res=4.4cm, Velocity_res=0.16m/s
 
@@ -96,7 +96,7 @@ layout: notes
 - **摘要：** 血压 (BP) 测量是诊断和治疗心血管衰竭和中风等多种疾病不可或缺的工具。 传统的直接测量可能是侵入性的，而基于可穿戴设备的方法可能存在不适和不便的局限性。 最近提倡非接触式血压测量作为一种有前途的替代方法。 特别是，毫米波 (mmWave) 传感已展示出其广阔的潜力，但它也面临着一些挑战，包括噪声和易受人类有意且不可避免地发生的微小运动的影响。 在本文中，我们提出了 mmBP，一种基于毫米波的非接触式 BP 测量系统，具有高精度和运动鲁棒性。 由于频率高、波长短，在时域中接收到的毫米波信号极易受到环境噪声的影响，从而降低信号质量。 为了降低噪声，我们提出了一种新颖的延迟多普勒域特征变换方法，以利用毫米波信号在延迟多普勒域中的特性和特征来显着提高脉冲波形构造的信号质量。 我们还提出了一种时间参考功能链接自适应滤波器，利用脉冲波形信号的周期性和相关性特征来减轻人体微小运动的影响。 通过留一法交叉验证 (LOOCV) 方法获得的大量实验结果表明，mmBP 的收缩压 (SBP) 和舒张压 (DBP) 的平均误差分别为 0.87mmHg 和 1.55mmHg； SBP 和 DBP 的标准偏差误差分别为 5.01mmHg 和 5.27mmHg。
 - **应用场景：** </br>
     <div style="text-align:center">
-        <img src="imgs/D2023_4_fig1.png", width="90%">
+        <img src="imgs/D2023_4_fig1.png" alt="image" width ="90%">
     </div>
     
 - **挑战：**
@@ -123,7 +123,7 @@ layout: notes
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2023_4_fig2.png", width="90%">
+        <img src="imgs/D2023_4_fig2.png" alt="image" width ="90%">
     </div>
 
     - <b>1. mmWave Reflection Capturing</b> 根据接收到的毫米波反射捕获动脉脉冲信号。毫米波信号由于频率高、带宽大，可以有效地反映脉冲运动引起的皮肤位移，这对于脉冲波形的构建至关重要。由于脉冲信号（例如，波形）包含足够的 BP 相关信息，因此可以对其进行处理以测量 BP 值并跟踪其变化。
@@ -136,7 +136,7 @@ layout: notes
 
     - <b>3. Motion Compensation</b>这一步消除了微小运动对脉冲波形构造的影响。为此，我们提出了一种时域参考功能链自适应滤波器(TR-FLAF)来缓解由微小运动引起的非线性影响。特别地，我们提出了一种时域参考功能链自适应滤波器(TR-FLAF)，滤除微小运动引起的非线性影响，增强所需信号，构建精确的脉冲波形。
     -   <div style="text-align:center">
-            <img src="imgs/D2023_4_fig3.png", width="90%">
+            <img src="imgs/D2023_4_fig3.png" alt="image" width ="90%">
         </div>
 
         - Temporal Reference Signal Extraction.
@@ -188,7 +188,7 @@ series = {SenSys '22}
 - **摘要：** 大规模连接是物联网成功的关键。 虽然毫米波反向散射具有巨大的潜力，但大量的信号衰减和压倒性的环境反射带来了重大挑战。 我们展示了 OmniScatter，这是一种实用的毫米波反向散射，具有 -115 dBm 的极高灵敏度。 该性能在理论上可与流行的商品 RFID EPC Gen2 (900 MHz) 相媲美，并通过在具有大量环境反射和阻塞的各种实际设置下的评估进行了经验验证 - 例如，在办公室中，标签被锁在 6 米外的木制壁橱中 ，以及在图书馆和零售店中，标签被放置在两排金属架子上。 OmniScatter 的核心是新的高清 FMCW (HD-FMCW)，它与标签 (FSK) 信号相互作用，以在频域中消除来自标签信号的环境反射，从本质上提供对环境反射的免疫力。 为了进一步支持实际部署，OmniScatter 提供无需协调的频分多址 (FDMA)，可轻松扩展至数千个并发标签。 阅读器建立在商品雷达上，而标签原型则建立在 PCB 上。 跟踪驱动的评估展示了 1100 个标签的并发通信，BER < 1.5%，为日常和任何地方使用的实用毫米波反向散射铺平了道路。
 - **应用场景：** </br>
     <div style="text-align:center">
-        <img src="imgs/ _fig1.png", width="100%">
+        <img src="imgs/ _fig1.png" alt="image" width ="100%">
     </div>
     
 - **动机：** FMCW通过利用跨越整个带宽的Chirp，提供了大量的编码增益，以潜在地帮助低功率后向散射信号，否则无法检测到。然而，典型的室内空间，如家庭、办公室、商场和医院，有一个复杂的环境，有丰富的环境反射，它们很快就会累积成大量的杂波噪声。这本质上造成了强的自干扰，很容易压倒弱的后向散射信号。
@@ -208,14 +208,14 @@ series = {SenSys '22}
 - **整体方案：**
     主要包含两部分内容：High Definition FMCW  和  Coordination-free FDMA
     <div style="text-align:center">
-        <img src="imgs/ _fig2.png", width="100%">
+        <img src="imgs/ _fig2.png" alt="image" width ="100%">
     </div>
     
     - <b>1. High Definition FMCW (HD-FMCW)</b> HD-FMCW 与原始 FMCW 的主要区别在于两个方面：
         - (i) 无chirp间隔：HD-FMCW 每个符号包含一系列线性调频信号，没有线性调频间隔，这与 FMCW 中具有保护时间的单线性调频符号相反。 
         - (ii) 符号内相位连续性：相位在符号内的整个chirp中保持连续。 即，线性调频信号开始和结束的相位在 HD-FMCW 中匹配，以实现线性调频信号之间的周期性。    
     <div style="text-align:center">
-        <img src="imgs/D2023_3_fig1.png", width="90%">
+        <img src="imgs/D2023_3_fig1.png" alt="image" width ="90%">
     </div>
 
 
@@ -227,7 +227,7 @@ series = {SenSys '22}
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/ _fig3.png", width="100%">
+        <img src="imgs/ _fig3.png" alt="image" width ="100%">
     </div>
 
 - **读后感：** 
@@ -241,7 +241,7 @@ series = {SenSys '22}
 - **摘要：** 基于毫米波 (mmWave) 的传感是一项重要技术，可实现创新的智能应用，例如语音识别。 该领域的现有工作需要直接感测人类的近喉区域，因此在非视线 (NLoS) 场景中的适用性有限。 本文提出了 AmbiEar，这是第一个适用于 NLoS 场景的基于毫米波的语音识别方法。 AmbiEar 基于这样一种认识，即无论人的位置和姿势如何，人的声音都会引起周围物体的相关振动。 因此，AmbiEar将周围的物体视为可以感知声音的耳朵，通过感知周围物体的振动，实现对人声的间接感知。 通过结合公共组件提取、信号叠加和编码器-解码器网络等设计，AmbiEar 解决了低信噪比和失真信号带来的挑战。 我们在商用毫米波雷达上实施 AmbiEar，并评估其在不同设置下的性能。 实验结果表明，与直接感知方法相比，AmbiEar 在 NLoS 场景中的词识别准确率为 87.21%，识别错误减少了 35.1%。
 - **应用场景：** </br> 为了使基于毫米波的语音识别真正适用于实践，下图描绘了一个典型的场景。
     <div style="text-align:center">
-        <img src="imgs/D2023_2_fig1.png", width="100%">
+        <img src="imgs/D2023_2_fig1.png" alt="image" width ="100%">
     </div>
     
 - **动机：** 我们观察到一个有趣的现象:声音以机械波的形式传播。人的声音会引起周围物体的振动，其中包含与人的声音高度相关的常见成分。受此启发，我们提出了AmbiEar，一种基于毫米波的语音识别间接传感方法。AmbiEar将周围的物体转换为周围的“耳朵”，并使用毫米波雷达感知“耳朵”发出的与语音相关的信号，从而实现语音识别。AmbiEar专为但不限于NLoS场景而设计。由于AmbiEar利用周围物体进行语音识别，因此它在LoS场景下也能很好地工作。
@@ -257,7 +257,7 @@ series = {SenSys '22}
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2023_2_fig2.png", width="100%">
+        <img src="imgs/D2023_2_fig2.png" alt="image" width ="100%">
     </div>
     - <b>1. Surroundings Detection</b> AmbiEar 首先扫描环境以获得所有物体的信息，包括它们的位置和反射信号强度。 然后它不断跟踪物体的位置，并根据轨迹的变化选择人的位置。 之后，AmbiEar 可以选择特定范围内的周围物体作为下一步的反射体。在跟踪人的位置后，AmbiEar会尝试在人的位置周围的特定范围(例如1m)内找到静态物体。
     
@@ -267,7 +267,7 @@ series = {SenSys '22}
    
     - <b>4. Voice Recognition</b> 通过上述步骤，AmbiEar获得了用户声音引起的增强振动信号的时频谱图。应考虑振动信号和语义信息的错位。
         <div style="text-align:center">
-            <img src="imgs/D2023_2_fig3.png", width="100%">
+            <img src="imgs/D2023_2_fig3.png" alt="image" width ="100%">
         </div>
 
 
@@ -278,7 +278,7 @@ series = {SenSys '22}
 - **摘要：** 毫米波 (mmWave) 联合通信雷达 (JCR) 将为自动驾驶等应用实现高数据速率通信和高分辨率雷达传感。 然而，基于毫米波通信硬件的现有 JCR 系统由于采用了定向通信波束，因此存在角视场有限和雷达估计精度低的问题。 在本文中，我们提出了一种适用于毫米波汽车 JCR 的自适应和快速组合波形波束形成设计，其相控阵架构允许在通信和雷达性能之间进行权衡。 为了快速估计具有宽视场的多普勒角域中的毫米波汽车雷达通道，我们的 JCR 设计采用发射波束形成器的循环偏移来获取雷达通道测量值，并在 时空维度。 在我们问题的时空采样约束下，我们优化这些循环偏移以最小化 CS 矩阵的相干性。 我们使用用于雷达估计的归一化均方误差 (MSE) 度量和用于数据通信的失真 MSE 度量来评估 JCR 性能权衡，这类似于率失真理论中的失真度量。 此外，我们为自适应 JCR 组合波形波束形成设计开发了基于 MSE 的加权平均优化问题。 数值结果表明，我们提出的 JCR 设计能够以低归一化 MSE 估计多普勒角域中的短程和中程雷达信道，但代价是通信失真 MSE 的小幅下降。
 - **应用场景：** </br> 汽车毫米波 JCR 系统的图示，该系统同时执行具有宽 FoV 的 SRR/MRR 雷达感测和具有窄 FoV 的 V2V 通信。我们考虑这样的用例：源车辆发送毫米波 JCR 波形与距离 D 处以相对速度 V 移动的接收车辆通信，同时使用接收到的回波进行汽车雷达传感。
     <div style="text-align:center">
-        <img src="imgs/D2023_1_fig1.jpg", width="100%">
+        <img src="imgs/D2023_1_fig1.jpg" alt="image" width ="100%">
     </div>
     
 - **动机：** 在自动驾驶中毫米波通信和感知的协同工作问题，在最小毫米波通信性能的约束下，优化毫米波的感知性能。

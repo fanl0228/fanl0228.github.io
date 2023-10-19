@@ -6,7 +6,7 @@ layout: notes
  * @Author: fanlong
  * @Date: 2023-10-19 16:37:08
  * @LastEditors: fanlong
- * @LastEditTime: 2023-10-19 20:09:16
+ * @LastEditTime: 2023-10-19 20:51:41
  * @FilePath: \fanl0228.github.io\paper_notes\Paperlist_2023.md
  * @Description: 
  * 
@@ -38,13 +38,13 @@ layout: notes
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div> 
     
 
@@ -68,13 +68,13 @@ https://zhuanlan.zhihu.com/p/638914192
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div> 
 
 
@@ -88,7 +88,7 @@ https://zhuanlan.zhihu.com/p/638914192
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div> 
 
 
@@ -144,7 +144,7 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **系统框架：** Flowchart of our proposed framework of SSL gesture recognition system.
     <div style="text-align:center">
-        <img src="imgs/P2023_46_fig1.png", width="100%">
+        <img src="imgs/P2023_46_fig1.png" alt="image" width ="100%">
     </div> 
 
 - **关注点：**
@@ -162,7 +162,7 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_45_fig1.png", width="80%">
+        <img src="imgs/P2023_45_fig1.png" alt="image" width ="80%">
     </div>
 
 
@@ -174,7 +174,7 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_44_fig1.png", width="80%">
+        <img src="imgs/P2023_44_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -186,12 +186,12 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_43_fig1.png", width="80%">
+        <img src="imgs/P2023_43_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
     <div style="text-align:center">
-        <img src="imgs/P2023_43_fig2.png", width="80%">
+        <img src="imgs/P2023_43_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -204,7 +204,7 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **系统框架：**
     <div style="text-align:center">
-        <img src="imgs/P2023_42_fig1.png", width="80%">
+        <img src="imgs/P2023_42_fig1.png" alt="image" width ="80%">
     </div> 
 
 
@@ -216,13 +216,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_41_fig1.png", width="80%">
+        <img src="imgs/P2023_41_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_41_fig2.png", width="80%">
+        <img src="imgs/P2023_41_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -234,13 +234,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_40_fig1.png", width="80%">
+        <img src="imgs/P2023_40_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_40_fig2.png", width="80%">
+        <img src="imgs/P2023_40_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -258,13 +258,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_39_fig1.png", width="80%">
+        <img src="imgs/P2023_39_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_39_fig2.png", width="80%">
+        <img src="imgs/P2023_39_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -277,13 +277,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_38_fig1.png", width="80%">
+        <img src="imgs/P2023_38_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_38_fig2.png", width="80%">
+        <img src="imgs/P2023_38_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -295,13 +295,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/png", width="80%">
+        <img src="imgs/png" alt="image" width ="80%">
     </div> 
 
 
@@ -315,13 +315,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_36_fig1.png", width="80%">
+        <img src="imgs/P2023_36_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_36_fig2.png", width="80%">
+        <img src="imgs/P2023_36_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -335,7 +335,7 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_35_fig1.png", width="80%">
+        <img src="imgs/P2023_35_fig1.png" alt="image" width ="80%">
     </div>
 
 
@@ -347,13 +347,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_34_fig1.png", width="80%">
+        <img src="imgs/P2023_34_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_34_fig2.png", width="80%">
+        <img src="imgs/P2023_34_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -367,18 +367,18 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_33_fig1.png", width="80%">
+        <img src="imgs/P2023_33_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
     <div style="text-align:center">
-        <img src="imgs/P2023_33_fig2.png", width="80%">
+        <img src="imgs/P2023_33_fig2.png" alt="image" width ="80%">
     </div> 
 
 - **Mesh Estimation Model:**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_33_fig3.png", width="80%">
+        <img src="imgs/P2023_33_fig3.png" alt="image" width ="80%">
     </div> 
 
 
@@ -390,13 +390,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> IndexPen 可在物理尺寸有限且无需佩戴仪器的设备上实现空中双指文本输入。 例如，它可以在 ATM 等公共设备上提供非接触式打字界面，以改善卫生状况。 它提供了在小屏幕上打字的替代方案，在小屏幕上打字很困难，语音输入不合适或不可行。 IndexPen 识别类似于手写的手势，包括 30 个类别。 该系统处理微型雷达设备生成的速度和角度轮廓，并使用神经网络检测手势。
     <div style="text-align:center">
-        <img src="imgs/P2023_32_fig1.png", width="80%">
+        <img src="imgs/P2023_32_fig1.png" alt="image" width ="80%">
     </div>
     
 - **实验系统：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_32_fig2.png", width="80%">
+        <img src="imgs/P2023_32_fig2.png" alt="image" width ="80%">
     </div> 
 
 ## 31. [High-Dimensional MVDR Beamforming: Optimized Solutions Based on Spiked Random Matrix Models](https)
@@ -418,7 +418,7 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **系统框架：**
     <div style="text-align:center">
-        <img src="imgs/P2023_30_fig1.png", width="80%">
+        <img src="imgs/P2023_30_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -430,13 +430,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_29_fig1.png", width="80%">
+        <img src="imgs/P2023_29_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_29_fig2.png", width="80%">
+        <img src="imgs/P2023_29_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -450,13 +450,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_28_fig2.png", width="80%">
+        <img src="imgs/P2023_28_fig2.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_28_fig1.png", width="80%">
+        <img src="imgs/P2023_28_fig1.png" alt="image" width ="80%">
     </div> 
 
 
@@ -468,13 +468,13 @@ of more than 94% on average, and significant improvements compared with state-of
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_27_fig1.png", width="80%">
+        <img src="imgs/P2023_27_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_27_fig2.png", width="80%">
+        <img src="imgs/P2023_27_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -491,13 +491,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_26_fig1.png", width="80%">
+        <img src="imgs/P2023_26_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_26_fig2.png", width="80%">
+        <img src="imgs/P2023_26_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -509,13 +509,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_25_fig1.png", width="80%">
+        <img src="imgs/P2023_25_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_25_fig2.png", width="80%">
+        <img src="imgs/P2023_25_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -528,7 +528,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_24_fig1.png", width="80%">
+        <img src="imgs/P2023_24_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -540,7 +540,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **系统框架：**
     <div style="text-align:center">
-        <img src="imgs/P2023_23_fig1.png", width="80%">
+        <img src="imgs/P2023_23_fig1.png" alt="image" width ="80%">
     </div> 
 
 ## 22. [Argosleep: Monitoring Sleep Posture from Commodity Millimeter-Wave Devices](https)
@@ -551,13 +551,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_22_fig1.png", width="80%">
+        <img src="imgs/P2023_22_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_22_fig2.png", width="80%">
+        <img src="imgs/P2023_22_fig2.png" alt="image" width ="80%">
     </div> 
 
 ## 21. [High-speed Machine Learning-enhanced Receiver for Millimeter-Wave Systems](https)
@@ -569,7 +569,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_21_fig1.png", width="80%">
+        <img src="imgs/P2023_21_fig1.png" alt="image" width ="80%">
     </div> 
 
 ## 20. [MIA: A Transport-Layer Plugin for Immersive Applications in Millimeter Wave Access Networks](https)
@@ -580,13 +580,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_20_fig1.png", width="80%">
+        <img src="imgs/P2023_20_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_20_fig2.png", width="80%">
+        <img src="imgs/P2023_20_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -598,7 +598,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_19_fig1.png", width="80%">
+        <img src="imgs/P2023_19_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -610,7 +610,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_18_fig1.png", width="80%">
+        <img src="imgs/P2023_18_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -622,13 +622,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_17_fig1.png", width="80%">
+        <img src="imgs/P2023_17_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_17_fig2.png", width="80%">
+        <img src="imgs/P2023_17_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -640,13 +640,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_16_fig1.png", width="80%">
+        <img src="imgs/P2023_16_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_16_fig2.png", width="80%">
+        <img src="imgs/P2023_16_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -660,12 +660,12 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **系统框架：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_15_fig1.png", width="80%">
+        <img src="imgs/P2023_15_fig1.png" alt="image" width ="80%">
     </div>
     
 - **实验结果：**
     <div style="text-align:center">
-        <img src="imgs/P2023_15_fig2.png", width="80%">
+        <img src="imgs/P2023_15_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -678,13 +678,13 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_14_fig1.png", width="80%">
+        <img src="imgs/P2023_14_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_14_fig2.png", width="80%">
+        <img src="imgs/P2023_14_fig2.png" alt="image" width ="80%">
     </div> 
 
 
@@ -696,7 +696,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_13_fig1.png", width="80%">
+        <img src="imgs/P2023_13_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -708,7 +708,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **系统硬件框图：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_12_fig1.png", width="80%">
+        <img src="imgs/P2023_12_fig1.png" alt="image" width ="80%">
     </div>
     
 
@@ -720,17 +720,17 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_11_fig1.png", width="80%">
+        <img src="imgs/P2023_11_fig1.png" alt="image" width ="80%">
     </div>
     
 - **系统框架：**
 
     <div style="text-align:center">
-        <img src="imgs/P2023_11_fig2.png", width="80%">
+        <img src="imgs/P2023_11_fig2.png" alt="image" width ="80%">
     </div> 
     
     <div style="text-align:center">
-        <img src="imgs/P2023_11_fig3.png", width="80%">
+        <img src="imgs/P2023_11_fig3.png" alt="image" width ="80%">
     </div> 
 
 ## 10. [RF-ECG: Heart Rate Variability Assessment Based on COTS RFID Tag Array](https://personal.stevens.edu/~ychen6/papers/RF-ECG-%20Heart%20Rate%20Variability%20Assessment%20Based%20on%20COTS%20RFID%20Tag%20Array.pdf)
@@ -741,7 +741,7 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2023_10_fig1.png", width="80%">
+        <img src="imgs/P2023_10_fig1.png" alt="image" width ="80%">
     </div>
 
 
@@ -814,6 +814,6 @@ INFOCOM 2023 毫米波（mmWave）相关9篇
 - **摘要：** 可重构智能表面(RIS)的概念被提出来改变电磁波的传播，例如反射、衍射和折射。 为实现这一目标，需要优化离散 RIS 单元的相位值。 在本文中，我们考虑了用于精确定位和高数据速率传输的RIS辅助毫米波(mmWave)多输入多输出(MIMO)系统。 **我们提出了一种基于分层码本和来自MS(Mobile Station)反馈的自适应移相器设计。(We propose an adaptive phase shifter design based on hierarchical codebooks and feedback from the mobile station (MS).)** 该方案的好处在于RIS不需要部署任何有源传感器和基带处理单元。 在移相器的更新过程中，MS处的组合向量被顺序细化。 仿真结果表明，所提出的算法在定位精度和数据速率方面均优于随机相位设计方案。 此外，即使在低信噪比状态下，性能也收敛于穷举搜索方案的性能。
 - **系统框架：**
     <div style="text-align:center">
-        <img src="imgs/P2023_1_fig2.png", width="80%">
+        <img src="imgs/P2023_1_fig2.png" alt="image" width ="80%">
     </div> 
 

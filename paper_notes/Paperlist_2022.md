@@ -35,13 +35,13 @@ layout: notes
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/P2022_2_fig1.png", width="100%">
+        <img src="imgs/P2022_2_fig1.png" alt="image" width ="100%">
     </div>
     
 - **系统框架：** Overview of the network model used in RF-Avatar，收到Mask-RCNN启发，利用4D-RF信号特征生成3D body Mesh
 
     <div style="text-align:center">
-        <img src="imgs/P2022_2_fig2.png", width="100%">
+        <img src="imgs/P2022_2_fig2.png" alt="image" width ="100%">
     </div>
 
 
@@ -54,7 +54,7 @@ layout: notes
 
 - **应用场景：** </br> 图像处理、图形和视觉中的许多问题都涉及将输入图像转换为相应的输出图像。 这些问题通常使用特定于应用程序的算法来处理，即使设置始终相同：将像素映射到像素。 条件对抗网络是一种通用解决方案，似乎可以很好地解决这些问题中的各种问题。 在这里，我们展示了该方法在几个方面的结果。 在每种情况下，我们都使用相同的架构和目标，并简单地训练不同的数据。
     <div style="text-align:center">
-        <img src="imgs/P2022_1_fig1.png", width="100%">
+        <img src="imgs/P2022_1_fig1.png" alt="image" width ="100%">
     </div>
     
 - **动机：** 建立图像到图像的映射关系

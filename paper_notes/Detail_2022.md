@@ -17,12 +17,12 @@ layout: notes
 
 - **应用场景：** </br>
     <div style="text-align:center">
-        <img src="imgs/D2022_26_fig1.png", width="90%">
+        <p><img src="./imgs/D2022_26_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：** 我们探索一种**新的人脸认证技术**。该技术可适用于各种复杂的关照条件，有效的**识别戴口罩的用户的身份**，同时可**抵御伪造攻击**。
     <div style="text-align:center">
-        <img src="imgs/D2022_26_fig4.png", width="90%">
+        <p><img src="./imgs/D2022_26_fig4.png"  alt="image" width="80%" ></p>
     </div>
 
 - **挑战：**
@@ -31,7 +31,7 @@ layout: notes
     - <b>3. 距离鲁棒的人脸结构特征提取：</b>对于毫米波对距离敏感，3D人脸图像会受到人脸与雷达之间距离的影响，因此直接使用3D人脸图像无法实现距离鲁棒性的人脸识别。我们发现，在不同距离下重构的3D人脸图像的“亮区”轮廓是稳定的，“亮区”轮廓只由人脸面部的曲率分布决定，因此，亮区轮廓作为鲁棒的人脸结构特征。
     - <b>4. 实现可靠的活体检测：</b> 自适应的选取面部曲率较为一致的平坦的区域，从而消除人脸结构的影响。通过这些区域中提取的生物特征，以判断目标是否是真实地人脸。
     <div style="text-align:center">
-        <img src="imgs/D2022_26_fig5.png", width="90%">
+        <p><img src="./imgs/D2022_26_fig5.png"  alt="image" width="80%" ></p>
     </div>
     
 - **整体方案：** 主要包含两个阶段
@@ -39,7 +39,7 @@ layout: notes
 
     - <b>2. 认证阶段</b> 用户只需要将他们的脸放在毫米波雷达前几秒钟。（1）在这个过程中，通过移动毫米波雷达沿特定轨迹来收集从面部反射的电磁波信号。mmFace从采集到的毫米波信号中提取生物特征进行活体检测。（2）为了抑制距离变化的影响，mmFace基于重构的人脸图像提取出抗距离的面部结构特征。（3）mmFace试图通过计算提取的面部结构特征与数据库中存储的每个模板之间的距离来在数据库中找到匹配。
         <div style="text-align:center">
-            <img src="imgs/D2022_26_fig3.png", width="80%">
+            <p><img src="./imgs/D2022_26_fig3.png"  alt="image" width="80%" ></p>
         </div>
 
 - **读后感：** 
@@ -74,7 +74,7 @@ layout: notes
 - **摘要：** 智能手机的耳机模式通常用于机密通信。在本文中，我们提出了一种针对智能手机耳机的远程(&gt;2m)和运动弹性攻击。我们开发了一种基于商用毫米波传感器的端到端窃听系统mmEve，以恢复智能手机耳机发出的语音。攻击的基本原理是基于我们的观察，智能手机耳机发出的声波与智能手机后部反射的毫米波有很强的相关性。然而，我们发现恢复的语音受到传感器自噪声和智能手机用户运动的影响，攻击距离限制在2米以内，在现实世界中威胁有限。我们模拟了毫米波传感下的运动干扰，并通过优化I/Q平面的拟合函数，提出了一种运动弹性解决方案。为了在攻击距离合理的情况下实现实际攻击，我们开发了一种基于gan的去噪方案来消除传感器的噪声模式，将攻击距离提高到6-8m。我们通过大量实验对mmEve进行了评估，发现三星、华为等公司生产的23种不同型号的智能手机都可能受到该攻击的影响。
 - **应用场景：** </br>
     <div style="text-align:center">
-        <img src="imgs/D2022_25_fig1.png", width="80%">
+        <p><img src="./imgs/D2022_25_fig1.png"  alt="image" width="80%" ></p>
     </div>
 
 - **攻击模型：** </br>
@@ -88,7 +88,7 @@ layout: notes
     - 攻击原理：
         - 该攻击利用手机听筒发声时与手机外壳之间产生的振动耦合，通过毫米波传感器感知机身轻微的振动来恢复听筒语音内容。
         <div style="text-align:center">
-            <img src="imgs/D2022_25_fig2.png", width="80%">
+            <p><img src="./imgs/D2022_25_fig2.png"  alt="image" width="80%" ></p>
         </div>
     
 - **挑战：**
@@ -102,16 +102,14 @@ layout: notes
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2022_25_fig3.png", width="90%">
+        <p><img src="./imgs/D2022_25_fig3.png"  alt="image" width="80%" ></p>
     </div>
     - <b>1. 目标定位：</b> 利用常规雷达感知技术初步定位目标（Range-FFT，Doppler-FFT，Angle-FFT）
     - <b>2. 抑制杂波：</b> 消除环境中静态杂波以及用户运动带来的干扰，具体方法对IF信号分段拟合并根据估计的圆心进行转换，对转换后的信号进行离群点检测和纠正。
     - <b>3. 语音增强：</b> 提升远距离感知情况下所恢复音频的质量，构建基于GAN的降噪网络用于提升语音的信噪比，训练数据由公开语音数据和毫米波噪声合成得到。将恢复的低信噪比语音输入去噪声网络，得到增强后的音频。
 
 - **思维导图：**
-    <div style="text-align:center">
-        <img src="imgs/ _fig3.png", width="100%">
-    </div>
+
 
 - **读后感：** 
 
@@ -147,7 +145,7 @@ series = {MobiCom '22}
 
 - **应用场景：** </br>
     <div style="text-align:center">
-        <img src="imgs/D2022_24_fig1.jpg", width="100%">
+        <p><img src="./imgs/D2022_24_fig1.jpg"  alt="image" width="80%" ></p>
     </div>
     
 - **挑战：**
@@ -162,7 +160,7 @@ series = {MobiCom '22}
 
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2022_24_fig2.jpg", width="100%">
+        <p><img src="./imgs/D2022_24_fig2.jpg"  alt="image" width="100%" ></p>
     </div>
 
 
@@ -177,7 +175,7 @@ series = {MobiCom '22}
 
 - **应用场景：** </br> VocalHR将VUIs扩展到心脏活动传感。该系统建立在心脏活动影响与声音产生有关的多个器官的效果之上。在首次使用之前，VocalHR需要一次性注册用户，以配置用户的发声器官特征。在注册过程中，用户同时记录他们的口头阅读声音和心脏活动。这些记录用于建立声心解调器。登记设置是直观和快速的，因此它可以由家庭医生在例行访问中完成，或作为类似于血压测试的药房服务提供。基于已建立的模型，VocalHR可以无缝集成到现有的VUIs中，在用户正常与智能手机和扬声器等设备交互时，感知心脏活动。我们将在第10节中进一步讨论VocalHR在医疗保健场景中的几个潜在应用。
     <div style="text-align:center">
-        <img src="imgs/D2022_23_fig1.png", width="80%">
+        <p><img src="./imgs/D2022_23_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：** 是否有可能通过探究语音中的心脏信息来赋予VUI应用新的功能?
@@ -194,7 +192,7 @@ series = {MobiCom '22}
     
 - **整体方案：** VocalHR由语音处理模块和心脏活动重建模块组成,VUI捕获用户语音后，通过预处理对其音量进行归一化处理。然后，通过去除语音中不相关的唇形影响来增强声心调制效果。然后提取语音的肺、喉、咽成分，在此基础上通过相应的调制特征描述心脏活动对这些成分的影响。一旦特征得到，数据驱动解调器将从调制特征过滤心脏信息。这些信息最终被转化为心脏活动。在一次性用户注册时，用户的声音输入到VocalHR的前端，心脏活动输入到末端。声心解调器通过这种数据驱动的监督配置来配置用户的声音器官特征。
     <div style="text-align:center">
-        <img src="imgs/D2022_23_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_23_fig2.png"  alt="image" width="80%" ></p>
     </div>
 
     - <b>1. Pre-processing </b> 采用相对于全音阶的响度单位(LUFS)作为归一化的度量，而不是加权分贝或dB声压级，因为使用LUFS的归一化更好地与人的音域相关
@@ -215,7 +213,7 @@ series = {MobiCom '22}
             - Adaptive Weighting of Filtering. 
 
             <div style="text-align:center">
-                    <img src="imgs/D2022_23_fig3.png", width="80%">
+                    <p><img src="./imgs/D2022_23_fig3.png"  alt="image" width="80%" ></p>
                 </div>
         - 5.3 Demodulator Configuration. 设计Discriminator来区分reconstructed and original cardiac activities.
 
@@ -256,7 +254,7 @@ series = {MobiCom '22}
 
 - **应用场景：** </br> 攻击者可以利用COTS mmWave探头对在隔音场景中保护的人类语音进行穿墙字检测。
     <div style="text-align:center">
-        <img src="imgs/D2022_22_fig1.png", width="100%">
+        <p><img src="./imgs/D2022_22_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：** 当声波受到隔音材料的约束时，利用传播声波和声波诱导振动的攻击可能失败。隔音障碍虽然可以防止传播的声波泄漏，但不能保证声源(如本文中的人扬声器)直接泄漏。在本文中，我们试图研究用隔音措施保护的人类语音是否会被装备了COTS mmWave设备的外部攻击者破坏。具体来说，如上图所示，攻击者在房间外使用便携式和COTS mmWave探头，通过墙壁捕捉受害者喉咙附近的皮肤振动，以恢复语音内容，这是抗隔音措施。
@@ -281,18 +279,18 @@ series = {MobiCom '22}
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2022_22_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_22_fig2.png"  alt="image" width="80%" ></p>
     </div>
 
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/D2022_22_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_22_fig3.png"  alt="image" width="80%" ></p>
     </div>
 
 - **实验设置以及测试场景：**
     <div style="text-align:center">
-        <img src="imgs/D2022_22_fig4.png", width="100%">
+        <p><img src="./imgs/D2022_22_fig4.png"  alt="image" width="80%" ></p>
     </div>
 
 - **读后感：** 
@@ -310,7 +308,7 @@ series = {MobiCom '22}
 
 - **应用场景：** </br> 基于wifi的手势识别技术是近年来兴起的，由于它是用户与数字设备进行交互的一种自然和非侵入性的方式，因此受到了广泛的关注。每个手势在相对于Wi-Fi收发器的不同位置执行时，都会导致不同的信号变化。
     <div style="text-align:center">
-        <img src="imgs/D2022_21_fig1.png", width="100%">
+        <p><img src="./imgs/D2022_21_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：** 非接触式交互应用
@@ -339,12 +337,12 @@ series = {MobiCom '22}
         
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D2022_21_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_21_fig2.png"  alt="image" width="80%" ></p>
     </div>
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/ _fig3.png", width="100%">
+        <p><img src="./imgs/ _fig3.png"  alt="image" width="80%" ></p>
     </div>
 
 
@@ -361,7 +359,7 @@ series = {MobiCom '22}
 
 - **应用场景：** </br> 主要原因是，汽车雷达发射毫米波信号，与光信号向各个方向散射不同，毫米波信号反射表面，只允许一小部分入射波返回到雷达接收器，如图所示。
     <div style="text-align:center">
-        <img src="imgs/D2022_20_fig1.png", width="80%">
+        <p><img src="./imgs/D2022_20_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：** 自动驾驶汽车需要高质量的几何感知他们航行的场景，即使在不利的天气条件下。大多数已经存在视觉算法和数据驱动算法都是基于高分辨率、多通道的LiDARs来重建3D的BBOX。然而，激光雷达无法穿透雾和灰尘。相比之下，毫米波雷达是一种强大的传感解决方案，它发射毫米波(mmwave)，受不利天气条件的影响较小。毫米波的波长使它们可以轻易地穿过雾、灰尘和其他微观粒子。
@@ -378,13 +376,13 @@ series = {MobiCom '22}
     
 - **整体方案：**
     <div style="text-align:center">
-        <img src="imgs/D202220_fig2.png", width="100%">
+        <p><img src="./imgs/D202220_fig2.png"  alt="image" width="80%" ></p>
     </div>
     - <b>1. Space coherence with Radar point potential</b> 如何叠加多个雷达数据来降低点云噪声？利用空间相干性到点云几何信息中，基于这样一个insight“如果一个3D空间区域在多个雷达中产生响应，它很可能是由一个物体而不是噪声产生的”。利用点云聚类的不同雷达的点云数据，
     - <b>2.Time coherence with multiple frames </b> 单帧中的点数量较少，利用多帧的时间相干性。我们跟踪连续帧中点的运动，并用它来估计航向。对自运动补偿帧进行跟踪，以消除源车辆运动的影响。采用基于卡尔曼滤波的校正方法来处理传感器的不确定性和噪声。
     - <b>3. MULTI-OBJECT 3D BOUNDING BOXES --> RP-net </b> 使用多个雷达融合来创建交叉势点云，我们可以解决噪声，并潜在地消除检测动态对象数量的不准确性。深度网络可以建立关于点云和精确物体位置之间关系的经验，并使用该经验来估计精确的3D-BBoxs。
         <div style="text-align:center">
-        <img src="imgs/D2022_20_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_20_fig3.png"  alt="image" width="80%" ></p>
         </div>
 
     - <b>4. Network Architecture Design </b> RP-net的工作是给定一个场景点云，输出场景中出现的物体的三维边界框集合。它以CPPC为输入，CPPC有6个通道，分别对应于每个点的x、y、z坐标、速度、峰值强度和交叉电位值。RP-net包括以下区块:
@@ -420,7 +418,7 @@ series = {MobiCom '22}
 
 - **应用场景：** </br> 
     <div style="text-align:center">
-        <img src="imgs/D2022_19_fig1.png", width="80%">
+        <p><img src="./imgs/D2022_19_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：** 在光照条件不好的情况下摄像头检测目标不准，但是毫米波能很好的感知目标，在多人情况下毫米波不能很好的区分目标，但是摄像头可以，因此考虑融合两模态特征，利用模态之间的互补性来提高目标检测准确率。
@@ -437,7 +435,7 @@ series = {MobiCom '22}
     
 - **整体方案：** 后融合方法（决策端） milliEye的系统架构。它包括两个阶段:框建议聚合和框优化。图中的蓝色锁表示这些组件的权重在多模态数据集的训练过程中被冻结
     <div style="text-align:center">
-        <img src="imgs/D2022_19_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_19_fig2.png"  alt="image" width="80%" ></p>
     </div>
     
     milliEye有以下三个系统级优势:
@@ -447,7 +445,7 @@ series = {MobiCom '22}
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/D2022_19_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_19_fig3.png"  alt="image" width="80%" ></p>
     </div>
 
 - **读后感：** 在coco,ExDarks数据集上训练图像检测器，然后再到self-collected数据集中进行联合训练，采用5倍交叉验证。
@@ -462,7 +460,7 @@ series = {MobiCom '22}
 
 - **应用场景：** 汽车驾驶舱场景感知心跳信号
     <div style="text-align:center">
-        <img src="imgs/D2022_18_fig1.png", width="100%">
+        <p><img src="./imgs/D2022_18_fig1.png"  alt="image" width="80%" ></p>
     </div>
 
 - **动机：** 目前大多数心跳信号感知方法要求受试者保持禁止或者在一个相对安静的环境中，这很难应用到动态驾驶场景中。
@@ -481,17 +479,17 @@ series = {MobiCom '22}
 - **背景知识：** 
     - 一个心动周期包含心脏的5个基本阶段，从心房收缩开始，发展到等容收缩、心室射血、等容舒张，最后心室充盈。a cardiac cycle contains 5 basic heart stages, which begins with the atria contraction, and progresses to the isovolumic contraction, ventricular ejection, isovolumic relaxation, and finally the ventricular filling. P波表示心房去极化，QRS波表示心室去极化，T波表示心室复极化。P wave representing the depolarization of atria, QRS complex indicating the depolarization of ventricles, and T wave exhibiting the repolarization of ventricles.
     - <div style="text-align:center">
-        <img src="imgs/D2022_18_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_18_fig2.png"  alt="image" width="80%" ></p>
       </div>
     
 - **整体方案：** 整个系统由三个步骤组成:毫米波信号预处理、基本心率估计和心循环重建。
     - <div style="text-align:center">
-        <img src="imgs/D2022_18_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_18_fig3.png"  alt="image" width="80%" ></p>
      </div>
 
 - **思维导图：**
     - <div style="text-align:center">
-        <img src="imgs/D2022_18_fig4.png", width="100%">
+        <p><img src="./imgs/D2022_18_fig4.png"  alt="image" width="80%" ></p>
      </div>
 
 - **读后感：** 毫米波感知心跳振动位移，利用互相关和模板匹配。
@@ -518,7 +516,7 @@ series = {MobiCom '22}
 - **摘要：** 在这篇论文中，我们提出mmMesh，第一个实时三维人体网格估计系统使用商业便携式毫米波设备。mmMesh是建立在一个新颖的深度学习框架之上的，它可以动态定位移动的主体，并通过分析从人体反射回来的themwave信号生成的3D点云来捕捉他/她的身体形状和姿势。提出的深度学习框架解决了一系列挑战。首先，它编码了一个3D人体模型，这使mmMesh能够从稀疏的点云中估计出复杂的和看起来真实的3D人体网格。其次，在不受环境点、射频信号易出错特性和多径效应影响的情况下，能够准确地将三维点与相应的体段对齐。第三，该模型可以根据之前的帧信息推断出缺失的身体部位。在商用mmWave传感测试台上的测试结果表明，mmMesh系统能准确定位人体网格上的顶点，平均误差为2.47 cm。良好的实验结果证明了我们提出的人体网格构建系统的有效性。
 - **整体框架：** </br>
     <div style="text-align:center">
-        <img src="imgs/D2022_17_fig1.png", width="80%">
+        <p><img src="./imgs/D2022_17_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：**  最近，研究人员在构建智能无线传感系统方面投入了大量精力，旨在利用无处不在的无线信号来感知和理解人类活动。到目前为止，这项努力中最显著的成就是通过人体反射的信号构建了人类骨骼。有了这些骨骼表示，一个后续的问题出现了:射频信号中包含的信息是否足够丰富，可以进一步重建人体的形状，从而不仅可以判断被监测对象的身高，还可以判断其体型、体重甚至性别?
@@ -537,12 +535,12 @@ series = {MobiCom '22}
     
 - **整体方案：** 在本文中，我们考虑了一个真实的场景，在这个场景中，人体被测对象由一个装有毫米波雷达的手机监控，雷达信号从人体和周围物体反射回来。本文提出的mmMesh系统旨在以反射的mmWave信号为输入，实时重构人体的动态网格。图2显示了我们提出的mmMesh系统的概述，它包含三个主要组件:数据收集、数据预处理和网格构造。
     <div style="text-align:center">
-        <img src="imgs/D2022_17_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_17_fig2.png"  alt="image" width="80%" ></p>
     </div>
     
     mmMesh模型整体结构：
     <div style="text-align:center">
-        <img src="imgs/D2022_17_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_17_fig3.png"  alt="image" width="80%" ></p>
     </div>
     - <b>1. Data Collection: </b> 
     - <b>2. Data Preprocessing: </b>
@@ -551,7 +549,7 @@ series = {MobiCom '22}
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/ _fig3.png", width="100%">
+        <p><img src="./imgs/ _fig3.png"  alt="image" width="80%" ></p>
     </div>
 
 - **读后感：** 
@@ -564,7 +562,7 @@ series = {MobiCom '22}
 - **摘要：** 我们提出了 Point-BERT，这是一种学习 Transformers 的新范式，可以将 BERT 的概念推广到 3D 点云。受 BERT 的启发，我们设计了一个掩蔽点建模 (MPM) 任务来预训练点云 Transformers。具体来说，我们首先将一个点云划分为几个局部点块，并设计一个带有离散变分自动编码器（dVAE）的点云标记器来生成包含有意义的局部信息的离散点标记。然后，我们随机屏蔽一些输入点云，并将它们输入到主干 Transformer 中。预训练目标是在 Tokenizer 获得的点令牌的监督下，在掩蔽位置恢复原始点令牌。大量实验表明，所提出的 BERT 式预训练策略显着提高了标准点云 Transformer 的性能。配备我们的预训练策略后，我们表明纯 Transformer 架构在 ModelNet40 上的准确率达到 93.8%，在最难的 ScanObjectNN 设置上达到 83.1% 的准确率，超过了精心设计的点云模型，而手工设计的数量要少得多。我们还证明了 Point-BERT 学习的表示可以很好地转移到新的任务和领域，我们的模型在很大程度上推进了最先进的小样本点云分类任务。
 - **整体框架：** </br> 下图展示了论文的主要思想。Point-BERT 专为标准点云 Transformer 的预训练而设计。 通过点云重建训练 dVAE，我们可以将点云转换为一系列离散点标记。 然后，我们可以通过预测掩码标记来使用掩码点建模 (MPM) 任务对 Transformer 进行预训练。
     <div style="text-align:center">
-            <img src="imgs/D2022_16_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_16_fig1.png"  alt="image" width="80%" ></p>
     </div>
     
 - **动机：**  利用网络来增强点云数量,对点云数据进行mask，然后利用BERT学习
@@ -574,7 +572,7 @@ series = {MobiCom '22}
     我们首先将输入点云划分为几个点块（子云）。 然后使用 mini-PointNet 获得一系列点嵌入。 在预训练之前，通过基于 dVAE 的点云重建来学习一个 Tokenizer，其中一个点云可以转换为一系列离散的点令牌； 在预训练期间，我们掩盖了点嵌入的某些部分并用掩码标记替换它们。 然后将掩码点嵌入输入到 Transformer 中。 在 Tokenizer 获得的点令牌的监督下，训练该模型以恢复原始点令牌。 我们还添加了一个辅助对比学习任务，以帮助 Transformer 捕获高级语义知识。
     
     <div>
-        <img src="imgs/D2022_16_fig2.png", width="100%">
+        <p><img src="./imgs/D2022_16_fig2.png"  alt="image" width="80%" ></p>
     </div>
 
     这项工作的总体目标是将 BERTstyle 预训练策略扩展到点云 Transformers。 为了实现这个目标，我们首先学习一个 Tokenizer 来获取每个输入点云的离散点标记。
@@ -582,7 +580,7 @@ series = {MobiCom '22}
 
 - **思维导图：**
     <div style="text-align:center">
-        <img src="imgs/D2022_16_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_16_fig3.png"  alt="image" width="80%" ></p>
     </div>
 
 
@@ -602,7 +600,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_15_fig1.png", width="80%">
+            <p><img src="./imgs/D2022_15_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -616,7 +614,7 @@ series = {MobiCom '22}
 - **整体方案：**
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_15_fig2.png", width="80%">
+            <p><img src="./imgs/D2022_15_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     - 1. Embedding stage: 从输入的3D点云中提取特征Fs，作为支持特征为后续的查询阶段使用。
@@ -625,7 +623,7 @@ series = {MobiCom '22}
 
 - **细节：**
     <div style="text-align:center">
-        <img src="imgs/D2022_15_fig3.png", width="100%">
+        <p><img src="./imgs/D2022_15_fig3.png"  alt="image" width="80%" ></p>
     </div>
 - **读后感：**
 
@@ -638,7 +636,7 @@ series = {MobiCom '22}
     给定对象的 3D 点云及其从随机摄像机视点渲染的 2D 图像，CrossPoint 强制执行 3D-2D 对应，同时通过自监督对比学习保持模型对仿射和空间变换的不变性。 这有助于可概括的点云表示，然后可用于 3D 对象分类和分割。 请注意，右侧显示的 2D 图像是直接从可用的 3D 点云渲染的
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_14_fig1.png", width="80%">
+            <p><img src="./imgs/D2022_14_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -658,7 +656,7 @@ series = {MobiCom '22}
     所提出方法的整体架构（CrossPoint）。 它包括两个分支，即：点云分支，通过对点云增强施加不变性来建立模态内对应关系；图像分支，通过在渲染的 2D 图像特征和点云之间引入对比损失来简单地制定跨模态对应关系 原型特征。 CrossPoint 结合两个分支的学习目标联合训练模型。 我们丢弃图像分支，仅使用点云特征提取器作为下游任务的主干。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_14_fig2.png", width="100%">
+            <p><img src="./imgs/D2022_14_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -672,7 +670,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_13_fig2.png", width="100%">
+            <p><img src="./imgs/D2022_13_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -688,7 +686,7 @@ series = {MobiCom '22}
 - **整体方案：**
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_13_fig3.png", width="100%">
+            <p><img src="./imgs/D2022_13_fig3.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -703,7 +701,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_12_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_12_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -723,7 +721,7 @@ series = {MobiCom '22}
     我们说明了所提出的 Fast Point Transformer 的整体架构。 红色点是输入点及其特征，紫色点是输出点及其特征。 彩色方块是体素化产生的非空体素。 蓝色和绿色点是具有特征的非空体素的质心。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_12_fig2.png", width="100%">
+            <p><img src="./imgs/D2022_12_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -737,7 +735,7 @@ series = {MobiCom '22}
     利用位置编码以质心为参考点建立关系，利用位置编码降低空间关系
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_12_fig3.png", width="80%">
+            <p><img src="./imgs/D2022_12_fig3.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -747,7 +745,7 @@ series = {MobiCom '22}
         - c. 轻量级的self-attention层：余弦相似度（cosine similarity），余弦相似度可以有效地处理输入体素 V 的稀疏性问题，而不是使用 softmax(.)。
             <div style="text-align:center">
                 <p align="center">
-                    <img src="imgs/D2022_12_fig4.png", width="80%">
+                    <p><img src="./imgs/D2022_12_fig4.png"  alt="image" width="80%" ></p>
                 </p>
             </div>
 
@@ -764,7 +762,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_11_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_11_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -784,7 +782,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_10_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_10_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -799,14 +797,14 @@ series = {MobiCom '22}
 - **整体方案：**
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_10_fig2.png", width="100%">
+            <p><img src="./imgs/D2022_10_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
     - 变分自编码 呼吸波形恢复，A novel IQ Variational Encoder-Decoder (IQ-VED) neural network。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_10_fig3.png", width="100%">
+            <p><img src="./imgs/D2022_10_fig3.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -822,7 +820,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_9_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_9_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -838,7 +836,7 @@ series = {MobiCom '22}
     - 3. 系统框架
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_9_fig2.png", width="80%">
+            <p><img src="./imgs/D2022_9_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -857,7 +855,7 @@ series = {MobiCom '22}
     - 通过运动引起的到达时间差 (MTDoA) 进行差分测距。 固定的智能手机会传输音序（中间），因此腕戴式智能手表远离（或朝向）手机移动时会观察到扩张（或压缩）的间隔，如顶部（或底部）音序所示。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_8_fig3.png", width="100%">
+            <p><img src="./imgs/D2022_8_fig3.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -870,7 +868,7 @@ series = {MobiCom '22}
 - **整体框架：** DI-Gesutre 将接收到的信号转换为 DRAI 序列，并通过提出的数据增强框架生成合成数据。 对于实时识别，DI-Gesutre 从连续的 DRAI 流中检测手势边界。 最后，将分割后的样本输入神经网络进行分类。</br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_7_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_7_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -889,7 +887,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_6_fig1.png", width="70%">
+            <p><img src="./imgs/D2022_6_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -915,7 +913,7 @@ series = {MobiCom '22}
 - **整体框架：** </br>
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_5_fig1.png", width="100%">
+            <p><img src="./imgs/D2022_5_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
     
@@ -938,7 +936,7 @@ series = {MobiCom '22}
 - **系统框图：** RFMask 的架构。 它由三个部分组成：信号处理、人体检测和掩码生成。 整个模型以端到端的方式进行训练。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_3_fig2.png", width="70%">
+            <p><img src="./imgs/D2022_3_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -967,14 +965,14 @@ series = {MobiCom '22}
 - **系统框图1:** 用于生成连续人类活动帧的 RFGAN 模型的架构。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_3_fig1.png", width="70%">
+            <p><img src="./imgs/D2022_3_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
 - **系统框图2: ** RFGAN 一时的训练框架。 它由生成部分和判别部分组成。 整个模型以端到端的方式通过对抗学习进行训练。
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_3_fig2.png", width="70%">
+            <p><img src="./imgs/D2022_3_fig2.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -1005,7 +1003,7 @@ series = {MobiCom '22}
 - **系统框图:**
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_2_fig1.png", width="90%">
+            <p><img src="./imgs/D2022_2_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
 
@@ -1021,6 +1019,6 @@ series = {MobiCom '22}
 - **系统框图:**
     <div style="text-align:center">
         <p align="center">
-            <img src="imgs/D2022_1_fig1.png", width="90%">
+            <p><img src="./imgs/D2022_1_fig1.png"  alt="image" width="80%" ></p>
         </p>
     </div>
