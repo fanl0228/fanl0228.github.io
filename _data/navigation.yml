@@ -1,0 +1,16 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "PaperNotes"
+  #   url: /notes/
+  - title: "About"
+    url: /about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  # - title: "Sample page"
+  #   url: /sample-page/
+  # - title: "Sitemap"
+  #   url: /sitemap/
