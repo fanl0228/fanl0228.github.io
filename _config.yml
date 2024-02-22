@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Long Fan"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Long Fan (樊龙)"
+  avatar           : "/assets/images/bio_photo_fanl.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Nan Jing, China"
   email            : 

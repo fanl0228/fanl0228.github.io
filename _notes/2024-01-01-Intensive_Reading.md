@@ -16,7 +16,7 @@ toc: true
 
 - **应用场景：** 
     <div style="text-align:center">
-        <img src="/assets/paperNotes_images/D2023_1_fig1.jpg" alt="image" width ="100%">
+        <img src="/assets/paperNotes_images/D2024_1_fig1.jpg" alt="image" width ="100%">
     </div>
     
 - **动机：** 
