@@ -1,19 +1,25 @@
 ---
-title: "Paper Notes [Year 2023]"
-excerpt: Detail notes
+title: "Intensive Reading [Year 2023]"
+excerpt: This note details the application scenario, paper contribution, system framework, experimental setup, etc.
 toc: true
 ---
 
 
+## [Papaers path](https://box.nju.edu.cn/library/d0b874f1-ceda-4488-9318-7a487007e8a5/01_%E9%98%85%E8%AF%BB%E8%AE%BA%E6%96%87/2023_Intensive_Reading)
+
+
 ## 5. [IndexPen: Two-Finger Text Input with Millimeter-Wave Radar](https://www.researchgate.net/publication/361826003_IndexPen_Two-Finger_Text_Input_with_Millimeter-Wave_Radar)
 - **阅读时间：** 2023-3-12
+
 - **出处：** UbiComp'22
-- **关键词：** micro-gesture recognition，毫米波FMCW雷达； 微手势感应； 空中手势； 深度学习； 文字输入； 光标交互
+
+- **关键词：** 微手势识别；毫米波FMCW雷达； 微手势感应； 空中手势； 深度学习； 文字输入； 光标交互
+
 - **Abstract：** In this paper, we introduce IndexPen, a novel interaction technique for text input through two-finger in-air micro-gestures, enabling touch-free, effortless, tracking-based interaction, designed to mirror real-world writing. Our system is based on millimeter-wave radar sensing, and does not require instrumentation on the user. IndexPen can successfully identify 30 distinct gestures, representing the letters A-Z, as well as Space, Backspace, Enter, and a special Activation gesture to prevent unintentional input. Additionally, we include a noise class to differentiate gesture and non-gesture noise. We present our system design, including the radio frequency (RF) processing pipeline, classification model, and real-time detection algorithms. We further demonstrate our proof-of-concept system with data collected over ten days with five participants yielding 95.89% cross-validation accuracy on 31 classes (including noise). Moreover, we explore the learnability and adaptability of our system for real-world text input with 16 participants who are first-time users to IndexPen over five sessions. After each session, the pre-trained model from the previous five-user study is calibrated on the data collected so far for a new user through transfer learning. The F-1 score showed an average increase of 9.14% per session with the calibration, reaching an average of 88.3% on the last session across the 16 users. Meanwhile, we show that the users can type sentences with IndexPen at 86.2% accuracy, measured by string similarity. This work builds a foundation and vision for future interaction interfaces that could be enabled with this paradigm.
+
 - **摘要：** 在本文中，我们介绍了 IndexPen，这是一种通过双指空中微手势进行文本输入的新颖交互技术，可实现免触摸、轻松、基于跟踪的交互，旨在反映真实世界的书写。 我们的系统基于毫米波雷达传感，不需要用户使用仪器。 IndexPen 可以成功识别 30 种不同的手势，代表字母 A-Z，以及 Space、Backspace、Enter 和一种特殊的 Activation 手势，以防止无意输入。 此外，我们还包括一个噪声类来区分手势和非手势噪声。 我们展示了我们的系统设计，包括射频 (RF) 处理管道、分类模型和实时检测算法。 我们进一步展示了我们的概念验证系统，其中收集了十天的数据，五名参与者在 31 个类别（包括噪音）上产生了 95.89% 的交叉验证准确率。 此外，我们与 16 名首次使用 IndexPen 的参与者一起探索了我们的系统对真实世界文本输入的可学习性和适应性，共计 5 次。 每次会议结束后，之前的五用户研究中的预训练模型都会根据迄今为止通过迁移学习为新用户收集的数据进行校准。 F-1 分数显示每次校准后会话平均增加 9.14%，在最后一次会话中 16 个用户平均达到 88.3%。 同时，我们表明用户可以使用 IndexPen 以 86.2% 的准确率键入句子，这是通过字符串相似性来衡量的。 这项工作为未来的交互界面奠定了基础和愿景，可以通过这种范式实现。
 
-- **应用场景：** </br> 
-    IndexPen可以在物理尺寸有限的设备上进行空中两指文本输入，不需要在手上佩戴仪器。例如，它可以在自动取款机等公共设备上提供非接触式打字界面，以改善卫生状况。它为在小屏幕上打字提供了一种替代方案，在小屏幕上打字具有挑战性，语音输入不合适或不可行。IndexPen可以识别类似手写的手势，包括30个类。该系统处理微型雷达设备生成的速度和角度轮廓，并使用神经网络检测手势。
+- **应用场景：** IndexPen可以在物理尺寸有限的设备上进行空中两指文本输入，不需要在手上佩戴仪器。例如，它可以在自动取款机等公共设备上提供非接触式打字界面，以改善卫生状况。它为在小屏幕上打字提供了一种替代方案，在小屏幕上打字具有挑战性，语音输入不合适或不可行。IndexPen可以识别类似手写的手势，包括30个类。该系统处理微型雷达设备生成的速度和角度轮廓，并使用神经网络检测手势。
     <div style="text-align:center">
         <img src="/assets/paperNotes_images/D2023_5_fig1.png" alt="image" width ="80%">
     </div>
@@ -46,16 +52,17 @@ toc: true
 
 
 
-
-
 ## 4. [mmBP: Contact-free Millimetre-wave Radar based Approach to Blood Pressure Measurement](https://dl.acm.org/doi/10.1145/3560905.3568506)
 - **阅读时间：** 2023-3-12
+
 - **出处：** SenSys'22
+
 - **关键词：** 血压，非接触式传感，毫米波
 
 - **Abstract:** Blood pressure (BP) measurement is an indispensable tool in diagnosing and treating many diseases such as cardiovascular failure and stroke. Traditional direct measurement can be invasive, and wearable-based methods may have limitations of discomfort and inconvenience. Contact-free BP measurement has been recently advocated as a promising alternative. In particular, Millimetre-wave (mmWave) sensing has demonstrated its promising potential, however it is confronted with several challenges including noise and vulnerability to human's tiny motions which may occur intentionally and inevitably. In this paper, we propose mmBP, a contact-free mmWave-based BP measurement system with high accuracy and motion robustness. Due to the high frequency and short wavelength, mmWave signals received in the time domain are dramatically susceptible to ambient noise, and deteriorating signal quality. To reduce noise, we propose a novel delay-Doppler domain feature transformation method to exploit mmWave signal's characteristics and features in the delay-Doppler domain to significantly improve signal quality for pulse waveform construction. We also propose a temporal referential functional link adaptive filter leveraging on the periodic and correlation characteristics of pulse waveform signals to alleviate the impact of human's tiny motions. Extensive experiment results achieved by the leave-one-out cross-validation (LOOCV) method demonstrate that mmBP achieves the mean errors of 0.87mmHg and 1.55mmHg for systolic blood pressure (SBP) and diastolic blood pressure (DBP), respectively; and the standard deviation errors of 5.01mmHg and 5.27mmHg for SBP and DBP, respectively.
 
 - **摘要：** 血压 (BP) 测量是诊断和治疗心血管衰竭和中风等多种疾病不可或缺的工具。 传统的直接测量可能是侵入性的，而基于可穿戴设备的方法可能存在不适和不便的局限性。 最近提倡非接触式血压测量作为一种有前途的替代方法。 特别是，毫米波 (mmWave) 传感已展示出其广阔的潜力，但它也面临着一些挑战，包括噪声和易受人类有意且不可避免地发生的微小运动的影响。 在本文中，我们提出了 mmBP，一种基于毫米波的非接触式 BP 测量系统，具有高精度和运动鲁棒性。 由于频率高、波长短，在时域中接收到的毫米波信号极易受到环境噪声的影响，从而降低信号质量。 为了降低噪声，我们提出了一种新颖的延迟多普勒域特征变换方法，以利用毫米波信号在延迟多普勒域中的特性和特征来显着提高脉冲波形构造的信号质量。 我们还提出了一种时间参考功能链接自适应滤波器，利用脉冲波形信号的周期性和相关性特征来减轻人体微小运动的影响。 通过留一法交叉验证 (LOOCV) 方法获得的大量实验结果表明，mmBP 的收缩压 (SBP) 和舒张压 (DBP) 的平均误差分别为 0.87mmHg 和 1.55mmHg； SBP 和 DBP 的标准偏差误差分别为 5.01mmHg 和 5.27mmHg。
+
 - **应用场景：** </br>
     <div style="text-align:center">
         <img src="/assets/paperNotes_images/D2023_4_fig1.png" alt="image" width ="90%">
@@ -144,14 +151,19 @@ series = {SenSys '22}
 
 ## 3. [OmniScatter: Extreme Sensitivity mmWave Backscattering Using Commodity FMCW Radar](https://dl.acm.org/doi/10.1145/3498361.3538924)
 - **[Youtbe]()**
+
 - **阅读时间：** 2022-3-5
+
 - **出处：** MobiSys’22, June 25–July 1
+
 - **关键词：** mmWave，毫米波背向散射
+
 - **摘要：** 大规模连接是物联网成功的关键。 虽然毫米波反向散射具有巨大的潜力，但大量的信号衰减和压倒性的环境反射带来了重大挑战。 我们展示了 OmniScatter，这是一种实用的毫米波反向散射，具有 -115 dBm 的极高灵敏度。 该性能在理论上可与流行的商品 RFID EPC Gen2 (900 MHz) 相媲美，并通过在具有大量环境反射和阻塞的各种实际设置下的评估进行了经验验证 - 例如，在办公室中，标签被锁在 6 米外的木制壁橱中 ，以及在图书馆和零售店中，标签被放置在两排金属架子上。 OmniScatter 的核心是新的高清 FMCW (HD-FMCW)，它与标签 (FSK) 信号相互作用，以在频域中消除来自标签信号的环境反射，从本质上提供对环境反射的免疫力。 为了进一步支持实际部署，OmniScatter 提供无需协调的频分多址 (FDMA)，可轻松扩展至数千个并发标签。 阅读器建立在商品雷达上，而标签原型则建立在 PCB 上。 跟踪驱动的评估展示了 1100 个标签的并发通信，BER < 1.5%，为日常和任何地方使用的实用毫米波反向散射铺平了道路。
+
 - **应用场景：** </br>
-    <div style="text-align:center">
+    <!-- <div style="text-align:center">
         <img src="/assets/paperNotes_images/ _fig1.png" alt="image" width ="100%">
-    </div>
+    </div> -->
     
 - **动机：** FMCW通过利用跨越整个带宽的Chirp，提供了大量的编码增益，以潜在地帮助低功率后向散射信号，否则无法检测到。然而，典型的室内空间，如家庭、办公室、商场和医院，有一个复杂的环境，有丰富的环境反射，它们很快就会累积成大量的杂波噪声。这本质上造成了强的自干扰，很容易压倒弱的后向散射信号。
 
@@ -170,37 +182,38 @@ series = {SenSys '22}
 - **整体方案：**
     主要包含两部分内容：High Definition FMCW  和  Coordination-free FDMA
     <div style="text-align:center">
-        <img src="/assets/paperNotes_images/ _fig2.png" alt="image" width ="100%">
+        <img src="/assets/paperNotes_images/D2023_3_fig2.png" alt="image" width ="90%">
     </div>
-    
+
     - <b>1. High Definition FMCW (HD-FMCW)</b> HD-FMCW 与原始 FMCW 的主要区别在于两个方面：
         - (i) 无chirp间隔：HD-FMCW 每个符号包含一系列线性调频信号，没有线性调频间隔，这与 FMCW 中具有保护时间的单线性调频符号相反。 
         - (ii) 符号内相位连续性：相位在符号内的整个chirp中保持连续。 即，线性调频信号开始和结束的相位在 HD-FMCW 中匹配，以实现线性调频信号之间的周期性。    
     <div style="text-align:center">
         <img src="/assets/paperNotes_images/D2023_3_fig1.png" alt="image" width ="90%">
     </div>
-
-
-    
      
     - <b>2. Coordination-free FDMA（无协调FDMA）</b>
 
 
-
 - **思维导图：**
-    <div style="text-align:center">
+    <!-- <div style="text-align:center">
         <img src="/assets/paperNotes_images/ _fig3.png" alt="image" width ="100%">
-    </div>
+    </div> -->
 
 - **读后感：** 
 
 
 
 ## 2. [AmbiEar: mmWave Based Voice Recognition in NLoS Scenarios](https://dl.acm.org/doi/abs/10.1145/3550320)
+
 - **阅读时间：** 2023-2-25
+
 - **出处：** UbiComp'22
+
 - **关键词：** 毫米波进行非视距（NLos）的语音识别
+
 - **摘要：** 基于毫米波 (mmWave) 的传感是一项重要技术，可实现创新的智能应用，例如语音识别。 该领域的现有工作需要直接感测人类的近喉区域，因此在非视线 (NLoS) 场景中的适用性有限。 本文提出了 AmbiEar，这是第一个适用于 NLoS 场景的基于毫米波的语音识别方法。 AmbiEar 基于这样一种认识，即无论人的位置和姿势如何，人的声音都会引起周围物体的相关振动。 因此，AmbiEar将周围的物体视为可以感知声音的耳朵，通过感知周围物体的振动，实现对人声的间接感知。 通过结合公共组件提取、信号叠加和编码器-解码器网络等设计，AmbiEar 解决了低信噪比和失真信号带来的挑战。 我们在商用毫米波雷达上实施 AmbiEar，并评估其在不同设置下的性能。 实验结果表明，与直接感知方法相比，AmbiEar 在 NLoS 场景中的词识别准确率为 87.21%，识别错误减少了 35.1%。
+
 - **应用场景：** </br> 为了使基于毫米波的语音识别真正适用于实践，下图描绘了一个典型的场景。
     <div style="text-align:center">
         <img src="/assets/paperNotes_images/D2023_2_fig1.png" alt="image" width ="100%">
@@ -234,10 +247,15 @@ series = {SenSys '22}
 
 
 ## 1. [Adaptive and Fast Combined Waveform-Beamforming Design for MMWave Automotive Joint Communication-Radar](https://ieeexplore.ieee.org/document/9398548)
+
 - **阅读时间：** 2023-2-19
+
 - **出处：** IEEE Journal of Selected Topics in Signal Processing （中科院2区）
+
 - **关键词：** 压缩感知，自动驾驶中的毫米波mmWave
+
 - **摘要：** 毫米波 (mmWave) 联合通信雷达 (JCR) 将为自动驾驶等应用实现高数据速率通信和高分辨率雷达传感。 然而，基于毫米波通信硬件的现有 JCR 系统由于采用了定向通信波束，因此存在角视场有限和雷达估计精度低的问题。 在本文中，我们提出了一种适用于毫米波汽车 JCR 的自适应和快速组合波形波束形成设计，其相控阵架构允许在通信和雷达性能之间进行权衡。 为了快速估计具有宽视场的多普勒角域中的毫米波汽车雷达通道，我们的 JCR 设计采用发射波束形成器的循环偏移来获取雷达通道测量值，并在 时空维度。 在我们问题的时空采样约束下，我们优化这些循环偏移以最小化 CS 矩阵的相干性。 我们使用用于雷达估计的归一化均方误差 (MSE) 度量和用于数据通信的失真 MSE 度量来评估 JCR 性能权衡，这类似于率失真理论中的失真度量。 此外，我们为自适应 JCR 组合波形波束形成设计开发了基于 MSE 的加权平均优化问题。 数值结果表明，我们提出的 JCR 设计能够以低归一化 MSE 估计多普勒角域中的短程和中程雷达信道，但代价是通信失真 MSE 的小幅下降。
+
 - **应用场景：** </br> 汽车毫米波 JCR 系统的图示，该系统同时执行具有宽 FoV 的 SRR/MRR 雷达感测和具有窄 FoV 的 V2V 通信。我们考虑这样的用例：源车辆发送毫米波 JCR 波形与距离 D 处以相对速度 V 移动的接收车辆通信，同时使用接收到的回波进行汽车雷达传感。
     <div style="text-align:center">
         <img src="/assets/paperNotes_images/D2023_1_fig1.jpg" alt="image" width ="100%">
@@ -263,3 +281,6 @@ series = {SenSys '22}
         - C. 接收信号模型：通信接收信号模型 + 雷达接收信号模型
 
     - <b>2. </b> 在雷达配置中的卷积压缩感知（CCS），由于毫米波频率下环境的传播特性，当用适当的基表示时，信道近似稀疏。
+
+
+

@@ -1,8 +1,12 @@
 ---
-title: "Paper Notes [Year 2021]"
-excerpt: Detail notes
+title: "Intensive Reading [Year 2021]"
+excerpt:  This note details the application scenario, paper contribution, system framework, experimental setup, etc.
 toc: true
 ---
+
+
+## [Papers path](https://box.nju.edu.cn/library/d0b874f1-ceda-4488-9318-7a487007e8a5/01_%E9%98%85%E8%AF%BB%E8%AE%BA%E6%96%87/2021_Intensive_Reading)
+
 
 ## 21. [WaveEar: Exploring a mmWave-based Noise-resistant Speech Sensing for Voice-User Interface](https://cse.buffalo.edu/~wenyaoxu/papers/conference/xu-mobisys2019b.pdf)
 - **阅读时间：** 2022-2-16

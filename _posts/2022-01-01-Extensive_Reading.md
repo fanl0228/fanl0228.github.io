@@ -1,5 +1,5 @@
 ---
-title: "List [Year 2022]"
+title: "Extensive Reading [Year 2022]"
 categories:
   - Markup
 tags:
@@ -9,6 +9,7 @@ tags:
   - html
   - markup
 toc: true
+excerpt: 简要介绍2022年度浏览论文的摘要，核心思想，系统框架
 ---
 
 ## 5. [A Projective Geometric View for 6D Pose Estimation in mmWave MIMO Systems](https://arxiv.org/abs/2302.00227)

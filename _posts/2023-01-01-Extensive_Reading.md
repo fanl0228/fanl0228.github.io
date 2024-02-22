@@ -1,55 +1,220 @@
 ---
-title: "List [Year 2023]"
+title: "Extensive Reading [Year 2023]"
 categories:
   - Markup
 tags:
   - content
   - markup
 toc: true
+excerpt: 简要介绍2021年度浏览论文的摘要，核心思想，系统框架
 ---
 
-<!-- 自适应波束成形 (Adaptive Beamforming)
-Doppler-angle domain
-Compressed sensing
-协方差矩阵
-rate-distortion theory, distortion metric
-AWR6843的FOV修改，提高角度分辨率 -->
-
-<!-- MobiSys23无线感知论文整理: 
-https://zhuanlan.zhihu.com/p/638914192
- -->
+## [Papaers path](https://box.nju.edu.cn/library/d0b874f1-ceda-4488-9318-7a487007e8a5/01_%E9%98%85%E8%AF%BB%E8%AE%BA%E6%96%87/2023_Extensive_Reading)
 
 
-## 49. [A Survey on Offline Reinforcement Learning, Taxonomy, Review, and Open Problems](https)
+
+
+## 60.[mmWave-YOLO: A mmWave Imaging Radar-Based Real-Time Multiclass Object Recognition System for ADAS Applications](https://ieeexplore.ieee.org/document/9777730)
 - **阅读时间：** 
-- **出处：** 
-- **关键词：** 
-- **摘要：** 
+- **Github**
+- **出处：** IEEE Transactions on Instrumentation and Measurement 2022
+- **关键词：** Advanced driver-assistance system (ADAS), imaging radar, millimeter wave (mmWave), neural networks, object recognition, sensor fusion
+- **Abstract：** This article presents a millimeter wave (mmWave) imaging radar-based real-time multiclass object recognition system for advanced driver-assistance system (ADAS) applications related to construction machinery. While mmWave radar has the advantage of being able to detect signals even in the optically harsh, dark, and dusty environments in which construction machinery is often used, the radar has two orders of magnitude lower resolution than cameras. Since the distance from the radar increases, object features vary, resulting in making it difficult to classify and detect the location of multiple objects. To address this issue, an mmWave-you only look once (YOLO) architecture is proposed that enables highly accurate object classification and location recognition by applying different detectors to each distance data. To provide precise labels for the radar data semiautomatically, a camera-radar cooperative data annotator is also developed. Using the radar only, a real-time (46.6 ms) object classification and location detection of six class objects is achieved. The accuracy of our system is 84% [mean average precision (mAP)], which is slightly higher than that of the red, blue, green (RGB)-camera-based system (78%). In addition, since the radar can acquire similar data of target objects against any background, mmWave-YOLO can detect objects in a variety of scenes with only a small variation of the training dataset, resulting in a lower training cost. Experiments confirmed that it can detect objects in outdoor scenes even when it is trained only with indoor scene data.
+- **摘要：**本文介绍了一种基于毫米波 (mmWave) 成像雷达的实时多类对象识别系统，适用于与工程机械相关的高级驾驶员辅助系统 (ADAS) 应用。 虽然毫米波雷达的优点是即使在工程机械经常使用的光学恶劣、黑暗和灰尘多的环境中也能检测到信号，但雷达的分辨率比摄像机低两个数量级。 由于与雷达的距离增加，物体特征发生变化，导致难以对多个物体进行分类和检测位置。 为了解决这个问题，提出了毫米波只看一次（YOLO）架构，该架构通过对每个距离数据应用不同的检测器来实现高精度的对象分类和位置识别。 为了半自动地为雷达数据提供精确的标签，还开发了摄像机-雷达协作数据注释器。 仅使用雷达，就实现了六类物体的实时（46.6 ms）物体分类和位置检测。 我们的系统的准确度为 84% [平均精度 (mAP)]，略高于基于红、蓝、绿 (RGB) 相机的系统 (78%)。 此外，由于雷达可以在任何背景下获取目标物体的相似数据，因此mmWave-YOLO可以在训练数据集变化很小的情况下检测各种场景中的物体，从而降低训练成本。 实验证实，即使仅使用室内场景数据进行训练，它也可以检测室外场景中的物体。
+- **系统框架：** Camera and mmWave cooperative data annotation system.
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_60_fig1.png" alt="image" width ="100%">
+    </div>
 
+
+## 59.[mm-Wave Radar-Based Vital Signs Monitoring and Arrhythmia Detection Using Machine Learning](https://www.mdpi.com/1424-8220/22/9/3106)
+- **阅读时间：** 
+- **Github**
+- **出处：** sensor article
+- **关键词：**  mm-wave radar; artificial neural network; vital signs; machine learning
+- **Abstract：** A non-contact, non-invasive monitoring system to measure and estimate the heart and breathing rate of humans using a frequency-modulated continuous wave (FMCW) mm-wave radar at 77 GHz is presented. A novel diagnostic system is proposed which extracts heartbeat phase signals from the FMCW radar (reconstructed using Fourier series analysis) to test a three-layer artificial neural network model to predict the presence of arrhythmia in individuals. The effect of person orientation, distance of measurement and movement was analyzed with respect to a reference device based on statistical measures that include number of outliers, mean, mean squared error (MSE), mean absolute error (MAE), median absolute error (medAE), skewness, standard deviation (SD) and R-squared values. The individual oriented in front of the radar outperformed almost all other orientations for most distances with an expected d = 90 cm and d = 120 cm. Furthermore, it was found that the heart rate that was measured while walking and the breathing rate which was measured for a motionless individual generated results with the lowest SD and MSE. An artificial neural network (ANN) was trained using the MIT-BIH database with a training accuracy of 93.9 % and an R2 value = 0.876. The diagnostic tool was tested on 15 subjects and achieved a mean test accuracy of 75%.
+- **摘要：** 提出了一种非接触式、非侵入性监测系统，使用 77 GHz 的调频连续波 (FMCW) 毫米波雷达来测量和估计人类的心率和呼吸频率。 提出了一种新颖的诊断系统，该系统从 FMCW 雷达提取心跳相位信号（使用傅立叶级数分析重建）来测试三层人工神经网络模型，以预测个体是否存在心律失常。 基于统计测量，分析人的朝向、测量距离和移动相对于参考设备的影响，这些统计测量包括异常值数量、平均值、均方误差 (MSE)、平均绝对误差 (MAE)、中值绝对误差 (medAE)、偏度、标准差 (SD) 和 R 平方值。 在大多数距离（预期 d = 90 厘米和 d = 120 厘米）下，位于雷达前方的个体的表现优于几乎所有其他方向。 此外，还发现步行时测量的心率和静止个体测量的呼吸频率产生的 SD 和 MSE 最低。 使用 MIT-BIH 数据库训练人工神经网络 (ANN)，训练精度为 93.9%，R2 值 = 0.876。 该诊断工具在 15 名受试者身上进行了测试，平均测试准确率为 75%。
+- **系统框架：**
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_59_fig1.png" alt="image" width ="100%">
+    </div>
+
+
+
+## 58.[MmWave Radar and Vision Fusion for Object Detection in Autonomous Driving: A Review](https://arxiv.org/abs/2108.03004)
+- **阅读时间：** 
+- **Github**
+- **出处：**
+- **关键词：** 
+- **Abstract：** With autonomous driving developing in a booming stage, accurate object detection in complex scenarios attract wide attention to ensure the safety of autonomous driving. Millimeter wave (mmWave) radar and vision fusion is a mainstream solution for accurate obstacle detection. This article presents a detailed survey on mmWave radar and vision fusion based obstacle detection methods. First, we introduce the tasks, evaluation criteria, and datasets of object detection for autonomous driving. The process of mmWave radar and vision fusion is then divided into three parts: sensor deployment, sensor calibration, and sensor fusion, which are reviewed comprehensively. Specifically, we classify the fusion methods into data level, decision level, and feature level fusion methods. In addition, we introduce three-dimensional(3D) object detection, the fusion of lidar and vision in autonomous driving and multimodal information fusion, which are promising for the future. Finally, we summarize this article.
+- **摘要：**随着自动驾驶的蓬勃发展，复杂场景下的精确目标检测受到广泛关注，以确保自动驾驶的安全。 毫米波（mmWave）雷达和视觉融合是精确障碍物检测的主流解决方案。 本文详细介绍了基于毫米波雷达和视觉融合的障碍物检测方法。 首先，我们介绍自动驾驶目标检测的任务、评估标准和数据集。 然后将毫米波雷达与视觉融合的过程分为传感器部署、传感器标定和传感器融合三个部分进行全面回顾。 具体来说，我们将融合方法分为数据级融合方法、决策级融合方法和特征级融合方法。 此外，我们还介绍了三维（3D）物体检测、自动驾驶中激光雷达和视觉的融合以及多模态信息融合，这些都是未来有前途的。 最后我们对这篇文章进行总结。
+- **系统框架：**
+
+
+
+## 57.[milliEgo: Single-chip mmWave Radar Aided Egomotion Estimation via Deep Sensor Fusion](https://arxiv.org/abs/2006.02266)
+- **阅读时间：** 
+- **Github**
+- **出处：** Sensys2020
+- **关键词：** 
+- **Abstract：** Robust and accurate trajectory estimation of mobile agents such as people and robots is a key requirement for providing spatial awareness for emerging capabilities such as augmented reality or autonomous interaction. Although currently dominated by optical techniques e.g., visual-inertial odometry, these suffer from challenges with scene illumination or featureless surfaces. As an alternative, we propose milliEgo, a novel deep-learning approach to robust egomotion estimation which exploits the capabilities of low-cost mmWave radar. Although mmWave radar has a fundamental advantage over monocular cameras of being metric i.e., providing absolute scale or depth, current single chip solutions have limited and sparse imaging resolution, making existing point-cloud registration techniques brittle. We propose a new architecture that is optimized for solving this challenging pose transformation problem. Secondly, to robustly fuse mmWave pose estimates with additional sensors, e.g. inertial or visual sensors we introduce a mixed attention approach to deep fusion. Through extensive experiments, we demonstrate our proposed system is able to achieve 1.3% 3D error drift and generalizes well to unseen environments. We also show that the neural architecture can be made highly efficient and suitable for real-time embedded applications.
+- **摘要：**人和机器人等移动代理的稳健而准确的轨迹估计是为增强现实或自主交互等新兴功能提供空间感知的关键要求。 尽管目前以视觉惯性里程计等光学技术为主，但这些技术面临场景照明或无特征表面的挑战。 作为替代方案，我们提出了 milliEgo，这是一种新颖的深度学习方法，可利用低成本毫米波雷达的功能进行稳健的自我运动估计。 尽管毫米波雷达比单目相机具有公制的基本优势，即提供绝对尺度或深度，但当前的单芯片解决方案的成像分辨率有限且稀疏，使得现有的点云配准技术变得脆弱。 我们提出了一种新的架构，该架构针对解决这一具有挑战性的姿势变换问题进行了优化。 其次，将毫米波姿态估计与附加传感器稳健地融合，例如 惯性或视觉传感器，我们引入了深度融合的混合注意力方法。 通过大量的实验，我们证明我们提出的系统能够实现 1.3% 的 3D 误差漂移，并能很好地推广到未见过的环境。 我们还表明，神经架构可以变得高效并且适合实时嵌入式应用。
+- **系统框架：**
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_57_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. Our proposed milliEgo uses a low-cost COTS mmWave radar and IMU coupled with a deep neural network model to accurately and robustly estimate 6-DOF egomotion.We envision that milliEgo could be widely-integrated on mobile platforms to provide a high degree of spatial awareness to a wide range of applications.
+
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_57_fig2.png" alt="image" width ="100%">
+    </div> 
+    Fig.2. Overview of milliEgo, in which mmWave subnet and multi-modal fusion are two key submodules in its design. The default sensors of milliEgo is mmWave and IMU, it can also flexibly integrate the third sensor such as RGB or depth camera.
+
+## 56.[Multi-Radar Inertial Odometry for 3D State Estimation using mmWave Imaging Radar](https://arxiv.org/abs/2311.08608)
+- **阅读时间：** 
+- **Github**
+- **出处：** arXiv2023
+- **关键词：** 毫米波成像雷达3D姿态估计
+- **Abstract：** State estimation is a crucial component for the successful implementation of robotic systems, relying on sensors such as cameras, LiDAR, and IMUs. However, in real-world scenarios, the performance of these sensors is degraded by challenging environments, e.g. adverse weather conditions and low-light scenarios. The emerging 4D imaging radar technology is capable of providing robust perception in adverse conditions. Despite its potential, challenges remain for indoor settings where noisy radar data does not present clear geometric features. Moreover, disparities in radar data resolution and field of view (FOV) can lead to inaccurate measurements. While prior research has explored radar-inertial odometry based on Doppler velocity information, challenges remain for the estimation of 3D motion because of the discrepancy in the FOV and resolution of the radar sensor. In this paper, we address Doppler velocity measurement uncertainties. We present a method to optimize body frame velocity while managing Doppler velocity uncertainty. Based on our observations, we propose a dual imaging radar configuration to mitigate the challenge of discrepancy in radar data. To attain high-precision 3D state estimation, we introduce a strategy that seamlessly integrates radar data with a consumer-grade IMU sensor using fixed-lag smoothing optimization. Finally, we evaluate our approach using real-world 3D motion data.
+- **摘要：**状态估计是成功实施机器人系统的关键组成部分，依赖于摄像头、激光雷达和 IMU 等传感器。 然而，在现实场景中，这些传感器的性能会因具有挑战性的环境而降低，例如， 恶劣的天气条件和弱光场景。 新兴的 4D 成像雷达技术能够在不利条件下提供强大的感知能力。 尽管具有潜力，但室内环境仍然面临挑战，因为嘈杂的雷达数据无法呈现清晰的几何特征。 此外，雷达数据分辨率和视场 (FOV) 的差异可能导致测量不准确。 虽然先前的研究已经探索了基于多普勒速度信息的雷达惯性里程计，但由于雷达传感器的视场和分辨率存在差异，3D 运动的估计仍然存在挑战。 在本文中，我们解决了多普勒速度测量的不确定性。 我们提出了一种优化身体框架速度同时管理多普勒速度不确定性的方法。 根据我们的观察，我们提出了一种双成像雷达配置，以减轻雷达数据差异的挑战。 为了实现高精度 3D 状态估计，我们引入了一种策略，使用固定滞后平滑优化将雷达数据与消费级 IMU 传感器无缝集成。 最后，我们使用真实世界的 3D 运动数据评估我们的方法。
+- **系统框架：**
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_56_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. A demonstration of multi-radar inertial odometry (orange) walked through different levels of an atrium compared to visual-inertial odometry (green). The colors of the radar point cloud indicate Doppler velocity from high (red) to low (purple).
+
+
+## 55.[Millimetro: mmWave retro-reflective tags for accurate, long range localization](https://dl.acm.org/doi/10.1145/3447993.3448627)
+- **阅读时间：** 
+- **Github**
+- **出处：** MobiCom'21
+- **关键词：** 
+- **Abstract：** This paper presents Millimetro, an ultra-low-power tag that can be localized at high accuracy over extended distances. We develop Millimetro in the context of autonomous driving to efficiently localize roadside infrastructure such as lane markers and road signs, even if obscured from view, where visual sensing fails. While RF-based localization offers a natural solution, current ultra-low-power localization systems struggle to operate accurately at extended ranges under strict latency requirements. Millimetro addresses this challenge by re-using existing automotive radars that operate at mmWave frequency where plentiful bandwidth is available to ensure high accuracy and low latency. We address the crucial free space path loss problem experienced by signals from the tag at mmWave bands by building upon Van Atta Arrays that retro-reflect incident energy back towards the transmitting radar with minimal loss and low power consumption. Our experimental results indoors and outdoors demonstrate a scalable system that operates at a desirable range (over 100 m), accuracy (centimeter-level), and ultra-low-power (< 3 uW).
+- **摘要：**本文介绍了 Millimetro，这是一种超低功耗标签，可以在长距离内进行高精度定位。 我们在自动驾驶的背景下开发 Millimetro，以有效地定位路边基础设施，例如车道标记和路标，即使在视觉传感失效的情况下，即使在视线模糊的情况下也是如此。 虽然基于射频的定位提供了一种自然的解决方案，但当前的超低功耗定位系统很难在严格的延迟要求下在扩展范围内准确运行。 Millitro 通过重复使用现有的汽车雷达来应对这一挑战，这些雷达以毫米波频率运行，有充足的带宽可确保高精度和低延迟。 我们通过构建 Van Atta 阵列来解决毫米波频段标签信号所遇到的关键自由空间路径损耗问题，该阵列以最小的损耗和低功耗将入射能量向后反射回发射雷达。 我们的室内和室外实验结果证明了一个可扩展的系统，可以在理想的范围（超过 100 m）、精度（厘米级）和超低功耗（< 3 uW）下运行。
+- **系统框架：**
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_55_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. Millimetro is an ultra-low-power mmWave retroreflector that supports accurate localization at long-range. Millimetro gets its long-range from reflecting back incident waves directionally towards the reader, and accuracy from the large bandwidth available atmmWave.
+
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_55_fig2.png" alt="image" width ="100%">
+    </div>
+    Fig.2. System overview
+
+
+## 54.[A Millimeter Wave Backscatter Network for Two-Way Communication and Localization](https://dl.acm.org/doi/10.1145/3603269.3604873)
+- **阅读时间：** 
+- **Github**
+- **出处：** SigCom2023
+- **关键词：** 
+- **Abstract：** Millimeter wave (mmWave) technology enables wireless devices to communicate using very high-frequency signals. Operating at those frequencies provides larger bandwidth which can be used to enable high-data-rate links, and very accurate localization of devices. However, radios operating at high-frequencies consume significant amount of power, making them unsuitable for applications with limited energy sources. This paper presents MilBack, a backscatter network operating at mmWave bands. Backscattering is the most energy-efficient wireless communication technique, where nodes piggyback their data on an access point's signal instead of generating their own signals. Eliminating the need for signal generation significantly reduces the energy-consumption of the nodes. In contrast to past mmWave backscatter work which supports only uplink, MilBack is the first mmWave backscatter network which supports uplink, downlink, and accurate localization. MilBack addresses the key challenges that prevent existing backscatter networks to enable both uplink and downlink at mmWave bands. We implemented MilBack and evaluated its performance empirically. Our results show that MilBack is capable of achieving accurate localization, uplink, and downlink communication at up to 8 m while consuming only 32 mW and 18 mW, respectively.
+- **摘要：** 毫米波 (mmWave) 技术使无线设备能够使用甚高频信号进行通信。 在这些频率下运行可提供更大的带宽，可用于实现高数据速率链路以及非常准确的设备定位。 然而，在高频下运行的无线电会消耗大量功率，因此不适合能源有限的应用。 本文介绍了 MilBack，一种在毫米波频段运行的反向散射网络。 反向散射是最节能的无线通信技术，其中节点将其数据搭载在接入点的信号上，而不是生成自己的信号。 消除信号生成的需要可以显着降低节点的能耗。 与过去仅支持上行链路的毫米波反向散射工作相比，MilBack是第一个支持上行链路、下行链路和精确定位的毫米波反向散射网络。 MilBack 解决了现有反向散射网络在毫米波频段上启用上行链路和下行链路的关键挑战。 我们实施了 MilBack 并根据经验评估了其性能。 我们的结果表明，MilBack 能够在长达 8 m 的距离内实现精确定位、上行链路和下行链路通信，而功耗分别仅为 32 mW 和 18 mW。
+- **系统框架：**
+
+
+
+## 53.[Contactless Blood Pressure Monitoring via Deep-Analyzed Hemodynamics](https)
+- **阅读时间：** 
+- **Github**
+- **出处：**
+- **关键词：** 毫米波雷达测血压，分析建模
+- **Abstract：** Blood pressure (BP) measurement is significant to the assessment of many dangerous health conditions. Apart from invasively inserting catheters into arteries, non-invasive approaches typically rely on wearing devices on specific skin areas with consistent pressure. However, this can be uncomfortable and unsuitable for certain individuals, and the accuracy of these methods may significantly decrease due to improper device placements and wearing states. Recently, contactless methods leveraging RF technology have emerged as a potential alternative. However, these methods suffer from the drawback of overfitting deep learning (DL) models without a sound physiological basis, resulting in a lack of clear explanations for their outputs. Consequently, such limitations lead to skepticism and distrust among medical experts. In this paper, we propose hBP-Fi, a contactless BP measurement system driven by hemodynamics acquired via RF sensing. In addition to its contactless convenience, hBP-Fi is superior to other RF sensing approaches in i) grounding on hemodynamics as the key physical process of heart-pulse activities, ii) exploiting beam-steerable RF devices to achieve a super-resolution scan on the fine-grained pulse activities along arm arteries, and iii) ensuring the trustworthiness of system
+outputs via an explainable (decision-understandable) DL model. Extensive experiments with 35 subjects demonstrate that hBP-Fi can achieve the error of -2.05±6.83mmHg and 1.99±6.30mmHg for monitoring systolic and diastolic blood pressures, respectively
+- **摘要：** 血压 (BP) 测量对于评估许多危险的健康状况具有重要意义。 除了侵入性地将导管插入动脉外，非侵入性方法通常依赖于在特定皮肤区域以一致的压力佩戴设备。 然而，这对于某些人来说可能会感到不舒服和不适合，并且由于设备放置和佩戴状态不当，这些方法的准确性可能会显着降低。 最近，利用射频技术的非接触式方法已成为一种潜在的替代方案。 然而，这些方法存在过度拟合深度学习（DL）模型而没有健全的生理学基础的缺点，导致其输出缺乏清晰的解释。 因此，这种限制导致医学专家的怀疑和不信任。 在本文中，我们提出了 hBP-Fi，这是一种由射频传感获取的血流动力学驱动的非接触式血压测量系统。 除了非接触式便利性之外，hBP-Fi 还优于其他射频传感方法，i) 基于血流动力学作为心脏脉搏活动的关键物理过程，ii) 利用波束可控射频设备实现超分辨率扫描 沿手臂动脉的细粒度脉搏活动，以及 iii) 确保系统的可信度
+通过可解释（决策可理解）的深度学习模型输出。 对35名受试者进行的大量实验表明，hBP-Fi在监测收缩压和舒张压方面的误差分别为-2.05±6.83mmHg和1.99±6.30mmHg
+- **系统框架：**
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_53_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. The concept of hBP-Fi: a path from hemodynamics understanding towards RF (micro-)motion sensing and explainable DL inference.
+
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_53_fig2.png" alt="image" width ="100%">
+    </div>
+    Fig.2. System overview
+
+
+
+## 52.[mmTag: A MillimeterWave Backscatter Network](https://dl.acm.org/doi/10.1145/3452296.3472917)
+- **阅读时间：** 
+- **Github**
+- **出处：** Sigcom'21
+- **关键词：** 
+- **Abstract：** Recent advances in IoT, machine learning and cloud computing have placed a huge strain on wireless networks. In particular, many emerging applications require streaming rich content (such as videos) in real time, while they are constrained by energy sources. A wireless network which supports high data-rate while consuming low-power would be very attractive for these applications. Unfortunately, existing wireless networks do not satisfy this requirement. For example, WiFi backscatter and Bluetooth networks have very low power consumption, but their data-rate is very limited (less than a Mbps). On the other hand, modern WiFi and mmWave networks support high throughput, but have a high power consumption (more than a watt). To address this problem, we present mmTag, a novel mmWave backscatter network which enables low-power high-throughput wireless links for emerging applications. mmTag is a backscatter system which operates in the mmWave frequency bands. mmTag addresses the key challenges that prevent existing backscatter networks from operating at mmWave bands. We implemented mmTag and evaluated its performance empirically. Our results show that mmTag is capable of achieving 1 Gbps and 100 Mbps at 4.6 m and 8 m, respectively, while consuming only 2.4 nJ/bit.
+- **摘要：**物联网、机器学习和云计算的最新进展给无线网络带来了巨大的压力。 特别是，许多新兴应用程序需要实时传输丰富的内容（例如视频），但它们受到能源的限制。 支持高数据速率同时消耗低功耗的无线网络对于这些应用非常有吸引力。 不幸的是，现有的无线网络不能满足这个要求。 例如，WiFi 反向散射和蓝牙网络的功耗非常低，但它们的数据速率非常有限（小于 Mbps）。 另一方面，现代 WiFi 和毫米波网络支持高吞吐量，但功耗较高（超过一瓦）。为了解决这个问题，我们推出了 mmTag，这是一种新型毫米波反向散射网络，可为新兴应用提供低功耗高吞吐量无线链路。 mmTag 是一种在毫米波频段运行的反向散射系统。 mmTag 解决了阻止现有反向散射网络在毫米波频段运行的关键挑战。 我们实现了 mmTag 并根据经验评估了其性能。 我们的结果表明，mmTag 能够在 4.6 m 和 8 m 的距离上分别实现 1 Gbps 和 100 Mbps，而功耗仅为 2.4 nJ/bit。
+- **系统框架：** 
+
+
+
+
+
+## 51.[Rotation Speed Sensing with mmWave Radar]()
+- **阅读时间：** 
+- **Github:**
+- **出处：** Infocom'2023
+- **关键词：** 
+- **Abstract：** Machines with rotary parts are prevalent in industrial systems and our daily lives. Rotation speed measurement is a crucial task for monitoring machinery health. Previous approaches for rotation speed sensing are constrained by limited operation distance, strict requirement for illumination, or strong dependency on the target object’s light reflectivity. In this work, we propose mRotate, a practical mmWave radar-based rotation speed sensing system liberated from all the above constraints. Specifically, mRotate separates the target signal reflected by the rotating object from the mixed reflection signals, extracts the high-quality rotation related features, and accurately obtains the rotation speed through the customized radar sensing mode and algorithm design. We implement mRotate on a commercial mmWave radar and extensively evaluate it in both lab environments and in a machining workshop for field tests. mRotate achieves an MAPE of 0.24% in accuracy test, which is 38% lower than that produced by the baseline device, a popular commercial laser tachometer. Besides, our experiments show that mRotate can measure a spindle whose diameter is only 5mm, maintain a high accuracy with a sensing distance as far as 2.5m, and simultaneously measure the rotation speeds of multiple objects.
+- **摘要：** 带有旋转部件的机器在工业系统和我们的日常生活中普遍存在。 转速测量是监测机械健康状况的一项重要任务。 先前的转速感测方法受到操作距离有限、对照明的严格要求或对目标物体的光反射率的强烈依赖性的限制。 在这项工作中，我们提出了 mRotate，这是一种实用的基于毫米波雷达的旋转速度传感系统，摆脱了上述所有限制。 具体来说，mRotate从混合反射信号中分离出旋转物体反射的目标信号，提取高质量的旋转相关特征，并通过定制的雷达感知模式和算法设计，准确获取旋转速度。 我们在商用毫米波雷达上实施 mRotate，并在实验室环境和加工车间进行广泛评估以进行现场测试。 mRotate 在精度测试中实现了 0.24% 的 MAPE，比流行的商用激光转速计基准设备低 38%。 此外，我们的实验表明，mRotate可以测量直径仅为5mm的主轴，保持高精度，感应距离可达2.5m，同时测量多个物体的旋转速度。
+- **系统框架：** 提出新的特征IFP(index of the first peak),建立雷达特征与旋转速度的关系。
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_51_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. System overview.
+
+
+## 50.[MetaWave: Attacking mmWave Sensing with Meta-material-enhanced Tags](https://www.ndss-symposium.org/ndss-paper/metawave-attacking-mmwave-sensing-with-meta-material-enhanced-tags/)
+- **阅读时间：** 
+- **Github**
+- **出处：**
+- **关键词：** 
+- **Abstract：** Millimeter-wave (mmWave) sensing has been applied in many critical applications, serving millions of thousands of people around the world. However, it is vulnerable to attacks in the real world. These attacks are based on expensive and professional radio frequency (RF) modulator-based instruments and can be prevented by conventional practice (e.g., RF fingerprint). In this paper, we propose and design a novel passive mmWave attack, called MetaWave, with low-cost and easily obtainable meta-material tags for both vanish and ghost attack types. These meta-material tags are made of commercial off-the-shelf (COTS) materials with customized tag designs to attack various goals, which considerably low the attack bar on mmWave sensing. Specifically, we demonstrate that tags made of ordinal material (e.g., C-RAM LF) can be leveraged to precisely tamper the mmWave echo signal and spoof the range, angle, and speed sensing measurements. Besides, to optimize the attack, a general simulator-based MetaWave attack framework is proposed and designed to simulate the tag modulation effects on the mmWave signal with advanced tag and scene parameters. We evaluate, MetaWave, the meta-material tag attack in both simulation and real-world experiments (i.e., 20 different environments) with various attack settings. Experimental results demonstrate that MetaWave can achieve up to 97% Top-1 attack accuracy on range estimation, 96% on angle estimation, and 91% on speed estimation in actual practice, 10-100X cheaper than existing mmWave attack methods. We also evaluate the usability and robustness of MetaWave under different real-world scenarios. Moreover, we conduct in-depth analysis and discussion on countermeasures for MetaWave mmWave attacks to improve wireless sensing and cyber-infrastructure security.
+- **摘要：**毫米波 (mmWave) 传感已应用于许多关键应用，为全球数以百万计的人们提供服务。 然而，它在现实世界中很容易受到攻击。 这些攻击基于昂贵且专业的基于射频 (RF) 调制器的仪器，并且可以通过传统做法（例如 RF 指纹）来预防。 在本文中，我们提出并设计了一种新型被动毫米波攻击，称为 MetaWave，具有低成本且易于获得的超材料标签，适用于消失和幽灵攻击类型。 这些超材料标签由商用现成 (COTS) 材料制成，具有定制的标签设计，可以攻击各种目标，从而大大降低了毫米波传感的攻击门槛。 具体来说，我们证明了由普通材料（例如 C-RAM LF）制成的标签可用于精确篡改毫米波回波信号并欺骗范围、角度和速度传感测量。 此外，为了优化攻击，提出并设计了一种基于通用模拟器的MetaWave攻击框架，以利用高级标签和场景参数来模拟毫米波信号上的标签调制效果。 我们在模拟和现实实验（即 20 个不同的环境）中使用各种攻击设置来评估 MetaWave 超材料标签攻击。 实验结果表明，MetaWave 在实际应用中可以实现高达 97% 的距离估计、96% 的角度估计和 91% 的速度估计的 Top-1 攻击精度，比现有毫米波攻击方法便宜 10-100 倍。 我们还评估了 MetaWave 在不同现实场景下的可用性和鲁棒性。 此外，我们还对MetaWave毫米波攻击的对策进行了深入的分析和讨论，以提高无线传感和网络基础设施的安全性。
+- **系统框架：**
+
+
+
+
+## 49.[milliEye: A Lightweight mmWave Radar and Camera Fusion System for Robust Object Detection](https://www.semanticscholar.org/paper/milliEye%3A-A-Lightweight-mmWave-Radar-and-Camera-for-Shuai-Shen/8868779625b1b88b5b077f31e69a74e76eb3d82e)
+- **阅读时间：** 
+- **Github** https://github.com/sxontheway/milliEye
+- **出处：** IoTDI’21
+- **关键词：** yolov3 + mmWave radar 融合实现目标检测；决策端融合（Figure 2 right）
+- **Abstract：** A wide range of advanced deep learning algorithms have recently been proposed for image classification and object detection. However, the effectiveness of these methods can be significantly restricted in many real-world scenarios where the visibility or illumination is poor. Compared to RGB cameras, millimeter-wave (mmWave) radars are immune to the above environmental variability and can assist cameras under adverse conditions. To this end, we propose milliEye, a lightweight mmWave radar and camera fusion system for robust object detection on the edge platforms. milliEye has several key advantages over existing sensor fusion approaches. First, while milliEye fuses two sensing modalities in a learning-based fashion, it requires only a small amount of labeled image/radar data of a new scene as it can fully utilize large public image datasets for extensive training. This salient feature enables milliEye to adapt to highly complex real-world environments. Second, based on a novel architecture that decouples the image-based object detector from other modules, milliEye is compatible with different off-the-shelf image-based object detectors. As a result, it can take advantage of the rapid progress of object detection algorithms. Moreover, thanks to the highly compute-efficient fusion approach, milliEye is lightweight and thus suitable for edge-based real-time applications. To evaluate the performance of milliEye, we collect a new radar and camera fusion dataset for object detection, which contains both ordinary-light and low-light illumination conditions. The results show that milliEye can provide substantial performance boosts over state-of-the-art image-based object detectors, including Tiny YOLOv3 and SSD, especially in low-light scenes, while incurring low compute overhead on edge platforms.
+- **摘要：** 最近提出了各种用于图像分类和对象检测的先进深度学习算法。 然而，在许多能见度或照明较差的现实场景中，这些方法的有效性可能会受到严重限制。 与 RGB 摄像头相比，毫米波 (mmWave) 雷达不受上述环境变化的影响，可以在不利条件下为摄像头提供帮助。 为此，我们提出了 milliEye，这是一种轻量级毫米波雷达和摄像头融合系统，用于在边缘平台上进行稳健的物体检测。 与现有传感器融合方法相比，milliEye 具有几个关键优势。 首先，虽然 milliEye 以基于学习的方式融合了两种传感模式，但它只需要新场景的少量标记图像/雷达数据，因为它可以充分利用大型公共图像数据集进行广泛的训练。 这一显着功能使 milliEye 能够适应高度复杂的现实环境。 其次，基于将基于图像的目标检测器与其他模块解耦的新颖架构，milliEye 与不同的现成基于图像的目标检测器兼容。 因此，它可以利用物体检测算法的快速进步。 此外，得益于计算效率高的融合方法，milliEye 重量轻，因此适合基于边缘的实时应用。 为了评估 milliEye 的性能，我们收集了用于目标检测的新雷达和相机融合数据集，其中包含普通光和低光照明条件。 结果表明，与最先进的基于图像的目标检测器（包括 Tiny YOLOv3 和 SSD）相比，milliEye 可以提供显着的性能提升，尤其是在低光场景中，同时在边缘平台上产生较低的计算开销。
+- **系统框架：** 提出新的特征IFP(index of the first peak),建立雷达特征与旋转速度的关系。
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_49_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. Left: conventional camera and radar fusion architecture that requires a large labeled image and radar dataset (> 10,000 frames) for training. Right: our proposed fusion architecture which enables separated weight training. Imagerelevant layers are trained on the large image dataset. Radarrelevant layers and scenario-agnostic result-level fusion layers are trained on the small customized multi-modality dataset (< 1,000 frames).
 
 
 
 ## 48. [Robust Hybrid Beamforming Design for Multi-RIS Assisted MIMO System With Imperfect CSI](https://ieeexplore.ieee.org/document/9957104)
 - **阅读时间：** 
-- **出处：** IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS
+- **出处：** IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS (IEEE TWC) JCR Q1
 - **关键词：** 
-- **摘要：** Reconfigurable intelligent surface (RIS) has been developed as a promising approach to enhance the performance of fifth-generation (5G) systems through intelligently reconfiguring the reflection elements. However, RIS-assisted beamforming design highly depends on the channel state information (CSI) and RIS’s location, which could have a significant impact on system performance. In this paper, the robust beamforming design is investigated for a RIS-assisted multiuser millimeter wave system with imperfect CSI, where the weighted sum-rate maximization problem (WSM) is formulated to jointly optimize transmit beamforming of the BS, RIS placement and reflect beamforming of the RIS. The considered WSM maximization problem includes CSI error, phase shifts matrices, transmit beamforming as well as RIS placement variables, which results in a complicated nonconvex problem. To handle this problem, the original problem is divided into a series of subproblems, where the location of RIS, transmit/reflect beamforming and CSI error are optimized iteratively. Then, a multiobjective evolutionary algorithm is introduced to gradient projection-based alternating optimization, which can alleviate the performance loss caused by the effect of imperfect CSI. Simulation results reveal that the proposed scheme can potentially enhance the performance of existing wireless communication, especially considering a desirable trade-off among beamforming gain, user priority and error factor.
+- **Abstract：** Reconfigurable intelligent surface (RIS) has been developed as a promising approach to enhance the performance of fifth-generation (5G) systems through intelligently reconfiguring the reflection elements. However, RIS-assisted beamforming design highly depends on the channel state information (CSI) and RIS’s location, which could have a significant impact on system performance. In this paper, the robust beamforming design is investigated for a RIS-assisted multiuser millimeter wave system with imperfect CSI, where the weighted sum-rate maximization problem (WSM) is formulated to jointly optimize transmit beamforming of the BS, RIS placement and reflect beamforming of the RIS. The considered WSM maximization problem includes CSI error, phase shifts matrices, transmit beamforming as well as RIS placement variables, which results in a complicated nonconvex problem. To handle this problem, the original problem is divided into a series of subproblems, where the location of RIS, transmit/reflect beamforming and CSI error are optimized iteratively. Then, a multiobjective evolutionary algorithm is introduced to gradient projection-based alternating optimization, which can alleviate the performance loss caused by the effect of imperfect CSI. Simulation results reveal that the proposed scheme can potentially enhance the performance of existing wireless communication, especially considering a desirable trade-off among beamforming gain, user priority and error factor.
+- **摘要：** 可重构智能表面 (RIS) 已被开发为一种很有前途的方法，可通过智能地重新配置反射元件来增强第五代 (5G) 系统的性能。 然而，RIS 辅助波束成形设计高度依赖于信道状态信息 (CSI) 和 RIS 的位置，这可能对系统性能产生重大影响。 本文研究了具有不完善 CSI 的 RIS 辅助多用户毫米波系统的鲁棒波束成形设计，其中制定了加权和速率最大化问题（WSM）来联合优化 BS 的发射波束成形、RIS 放置和反射波束成形 RIS 的。 考虑的WSM最大化问题包括CSI误差、相移矩阵、发射波束成形以及RIS放置变量，这导致复杂的非凸问题。 为了处理这个问题，原始问题被分为一系列子问题，其中RIS的位置、发射/反射波束成形和CSI误差被迭代优化。 然后，将多目标进化算法引入基于梯度投影的交替优化，可以减轻由于CSI不完善的影响而造成的性能损失。 仿真结果表明，所提出的方案可以潜在地增强现有无线通信的性能，特别是考虑到波束成形增益、用户优先级和误差因子之间的理想权衡。
 - **系统框架：**
-    <!-- <div style="text-align:center">
-        <img src="/assets/paperNotes_images/png" alt="image" width ="80%">
-    </div>  -->
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_48_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. Illustration of the considered multi-RIS-assisted MIMO communication system.
 
 
-## 47. [Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi](https)
+## 47. [Towards Position-Independent Sensing for Gesture Recognition with Wi-Fi](https://dl.acm.org/doi/10.1145/3463504)
 - **阅读时间：** 2023-09-19
 - **出处：** UbiComp'21
 - **关键词：** wifi，手势识别
 - **摘要：** Past decades have witnessed the extension of the Wi-Fi signals as a useful tool sensing human activities. One common assumption behind it is that there is a one-to-one mapping between human activities and Wi-Fi received signal patterns. However, this assumption does not hold when the user conducts activities in different locations and orientations. Actually, the received signal patterns of the same activity would become inconsistent when the relative location and orientation of the user with respect to transceivers change, leading to unstable sensing performance. This problem is known as the position-dependent problem, hindering the actual deployment of Wi-Fi-based sensing applications. In this paper, to tackle this fundamental problem, we develop a new position-independent sensing strategy and use gesture recognition as an application example to demonstrate its effectiveness. The key idea is to shift our observation from the traditional transceiver view to the hand-oriented view, and extract features that are irrespective of position-specific factors. Following the strategy, we design a position-independent feature, denoted as Motion Navigation Primitive(MNP). MNP captures the pattern of moving direction changes of the hand, which shares consistent patterns when the user performs the same gesture with different position-specific factors. By analyzing the pattern of MNP, we convert gestures into sequences of strokes (e.g, line, arc and corner) which makes them easy to be recognized. We build a prototype WiFi gesture recognition system, i.e., WiGesture to validate the effectiveness of the proposed strategy. Experiments show that our system can outperform the start-of-arts significantly in different settings. Given its novelty and superiority, we believe the proposed method symbolizes a major step towards gesture recognition and would inspire other solutions to position-independent activity recognition in the future.
 
 - **系统框架：**
-    <!-- <div style="text-align:center">
-        <img src="/assets/paperNotes_images/png" alt="image" width ="80%">
-    </div>  -->
+    <div style="text-align:center">
+        <img src="/assets/paperNotes_images/P2023_47_fig1.png" alt="image" width ="100%">
+    </div>
+    Fig.1. Illustrations of Drawing ’2’ with Different Position-specific Factors
+
 
 
 - **学习的点：**
@@ -57,7 +222,7 @@ https://zhuanlan.zhihu.com/p/638914192
     2. 
 
 
-## 46. [Towards Robust Gesture Recognition by Characterizing the Sensing Quality of WiFi Signals](https)
+## 46. [Towards Robust Gesture Recognition by Characterizing the Sensing Quality of WiFi Signals](https://www.researchgate.net/publication/359586964_Towards_Robust_Gesture_Recognition_by_Characterizing_the_Sensing_Quality_of_WiFi_Signals)
 - **阅读时间：** 
 - **出处：** Ubicomp‘22
 - **关键词：** gesture recognition; wifi
@@ -75,7 +240,7 @@ COTS WiFi devices. The extensive experimental results demonstrate that our syste
 of more than 94% on average, and significant improvements compared with state-of-arts.
 
 - **引用** </br> 
-    
+  
     ```
     @article{10.1145/3517241,
     author = {Gao, Ruiyang and Li, Wenwei and Xie, Yaxiong and Yi, Enze and Wang, Leye and Wu, Dan and Zhang, Daqing},
@@ -98,7 +263,7 @@ of more than 94% on average, and significant improvements compared with state-of
     ```
     
 - **单词、句子：** </br> 
-    
+  
     - In this section, we investigate the phenomenon of different sensing quality which influences the robustness of gesture recognition.
 
 

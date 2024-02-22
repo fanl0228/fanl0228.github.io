@@ -1,9 +1,10 @@
 ---
-title: "Paper Notes [Year 2022]"
-excerpt: Detail notes
+title: "Intensive Reading  [Year 2022]"
+excerpt: This note details the application scenario, paper contribution, system framework, experimental setup, etc.
 toc: true
 ---
 
+## [Papers path](https://box.nju.edu.cn/library/d0b874f1-ceda-4488-9318-7a487007e8a5/01_%E9%98%85%E8%AF%BB%E8%AE%BA%E6%96%87/2022_Intensive_Reading)
 
 ## 26.[Mask Does Not Matter: Anti-Spoofing Face Authentication using mmWave without On-site Registration](https://han-jinsong.github.io/hanjinsong.github.com/mmFace_success_final.pdf)
 
