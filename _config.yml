@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Long Fan (樊龙)"
   avatar           : "/assets/images/bio_photo_fanl.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Become a better researcher."
   location         : "Nan Jing, China"
   email            : 
   links:
@@ -221,9 +221,9 @@ collections:
   notes:
     output: true
     permalink: /:collection/:path/
-  papers:
-    output: true
-    permalink: /:collection/:path/
+  # papers:
+  #   output: true
+  #   permalink: /:collection/:path/
   # pets:
   #   output: true
   #   permalink: /:collection/:path/

@@ -1,3 +1,15 @@
+<!--
+ * @Author: fanlong
+ * @Date: 2023-10-22 16:09:43
+ * @LastEditors: fanlong
+ * @LastEditTime: 2024-05-25 16:02:42
+ * @FilePath: \fanl0228.github.io\README.md
+ * @Description: 
+ * 
+ * @github: https://github.com/fanl0228
+ * @Email: fanl@smail.nju.edu.cn
+ * Copyright (c) 2024 by fanlong/Nanjing University, All Rights Reserved. 
+-->
 # 
 
 
@@ -10,12 +22,10 @@
     bundle exec jekyll serve --port 4001
 
 
-
 ### 文件内容
-_posts 博客内容
+_posts 博客内容, 每一篇类别写
 
 _pages 其他需要生成的网页
-
 
 _layouts 网页排版模板
 

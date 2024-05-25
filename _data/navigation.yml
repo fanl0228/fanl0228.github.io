@@ -1,19 +1,18 @@
 # main links
 main:
-  - title: "Collections"
-    url: /collection-archive/
-
-  # - title: "PaperNotes"
-  #   url: /notes/
   - title: "About"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Notes"
+    url: /collection-archive/
+  - title: "Posts"
+    url: /year-archive/
   - title: "Doc"
-    url: /doc/
-  # - title: "Sample page"
-  #   url: /sample-page/
-  # - title: "Sitemap"
-  #   url: /sitemap/  
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /docs/
+  - title: "Paper translation"
+    url: /Paper-translation-page/
+  # - title: "Papers"
+  #   url: /papers-archive/ 
+
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+

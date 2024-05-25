@@ -1,5 +1,8 @@
 ---
-title: "Intensive Reading [Year 2024]"
+title: "mmWave Beamforming"
+tags:
+    Beamforming
+
 excerpt: This note details the application scenario, paper contribution, system framework, experimental setup, etc.
 toc: true
 ---

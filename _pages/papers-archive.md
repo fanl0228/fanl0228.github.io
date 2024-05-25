@@ -1,9 +1,6 @@
 ---
-layout: collection
 title: "Papers"
-collection: papers
-permalink: /papers/
+permalink: /papers-achieve/
 author_profile: false
+toc: true
 ---
-
-Sample document listing for the collection `_papers`.
