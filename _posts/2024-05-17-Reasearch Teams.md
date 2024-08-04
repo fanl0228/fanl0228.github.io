@@ -21,6 +21,12 @@ excerpt: 国内外研究团队（无线感知领域）
 - mmWave
 - Acoustic sensing
 
+## [Mo Li (李默) ](https://home.cse.ust.hk/~lim/)
+
+- [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=kjiwE6IAAAAJ)
+- IEEE Fellow
+- Hong Kong University of Science and Technology 香港科技大学
+
 
 ## [Yunhao Liu (刘云浩)](http://tns.thss.tsinghua.edu.cn/~yunhao/en.html)
 
@@ -148,4 +154,5 @@ excerpt: 国内外研究团队（无线感知领域）
 
 - [Google Scholar](https://scholar.google.com/citations?user=jCZaWOEAAAAJ&hl=zh-CN&oi=ao)
 - Rutgers University - New Brunswick
+
 

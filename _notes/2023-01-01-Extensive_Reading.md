@@ -1,12 +1,12 @@
 ---
-title: "Extensive Reading [Year 2023]"
+title: "2023-2024年浏览论文"
 categories:
   - Markup
 tags:
   - content
   - markup
 toc: true
-excerpt: 简要介绍2021年度浏览论文的摘要，核心思想，系统框架
+excerpt: 简要介绍浏览论文的摘要，核心思想，系统框架
 ---
 
 ## [Papaers path](https://box.nju.edu.cn/library/d0b874f1-ceda-4488-9318-7a487007e8a5/01_%E9%98%85%E8%AF%BB%E8%AE%BA%E6%96%87/2023_Extensive_Reading)
