@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Hone
+title: About
 permalink: /
 subtitle: Lecturer at <a href='http://www.njupt.edu.cn/'>Nanjing University of Posts and Telecommunications</a>.
 

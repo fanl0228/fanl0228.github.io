@@ -41,21 +41,29 @@
 
 // 专门针对 About 页面侧边栏头像的优化
 .profile {
-  width: 30% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
-  margin-top: 1rem;      // 让头像顶部与正文标题对齐
+  width: 40% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
+  
+  min-width: 180px;          // 设定最小宽度，防止在平板上缩得太小
+  margin-left: 2rem;         // 增加头像与左侧文字的间距
+  margin-bottom: 1rem;       // 增加头像下方与 News 的间距
+  margin-top: 2rem;          // 微调：让头像顶部与 Biography 段落对齐
   
   img {
     width: 150px !important; // 强制图片宽度，建议 150px-180px
-    height: 150px !important; // 确保正圆
+    height: auto !important; // 确保正圆
     object-fit: cover;
     margin: 0 auto;          // 居中显示
   }
 
-  .address {
-    font-size: 0.9rem;      // 缩小下方联系信息字体，更显精致
-    color: var(--global-text-color-light); // 使用主题定义的浅色文字
+   // 针对 more_info (YAML中定义的 address/email) 样式优化
+  .more-info, .address {
+    font-size: 0.85rem;      // 稍微缩小字体
+    text-align: center;      // 联系信息居中对齐头像
+    margin-top: 1rem;
+    color: var(--global-text-color-light); 
+    
     p {
-      margin-bottom: 0.2rem;
+      margin-bottom: 0.3rem; // 缩小行间距
     }
   }
 }
