@@ -7,7 +7,7 @@ subtitle: Lecturer at <a href='http://www.njupt.edu.cn/'>Nanjing University of P
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>Room 327, School of Computer Science</p>
     <p>Nanjing University of Posts and Telecommunications</p>
@@ -30,9 +30,13 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Researcher at the **Nanjing University of Posts and Telecommunications (NJUPT)**. I received my Ph.D. degree from the School of Computer Science and Technology at **Nanjing University**, where I was supervised by [Prof. Lei Xie](https://cs.nju.edu.cn/lxie/). From 2024 to 2025, I was a visiting researcher at the College of Computing and Data Science, **Nanyang Technological University (NTU)**, working with [Prof. Jun Luo](https://personal.ntu.edu.sg/junluo/).
+Long Fan is currently a Lecturer at the School of Computer Science, Nanjing University of Posts and Telecommunications (NJUPT).
+He received his Ph.D. degree from the School of Computer Science and Technology at Nanjing University (NJU), advised by [Prof. Lei Xie](https://cs.nju.edu.cn/lxie/).
+From 2024 to 2025, he was a Visiting Researcher at the College of Computing and Data Science, Nanyang Technological University (NTU), working with [Prof. Jun Luo](https://personal.ntu.edu.sg/junluo/).
 
-My research interests lie in the intersection of **Wireless Sensing** and **Mobile Computing**. I am dedicated to transforming pervasive wireless signals into high-precision digital perceptions of the physical world. Currently, my work focuses on:
+His research interests lie in the intersection of **Pervasive Computing**, **Wireless Sensing** and **Mobile Computing**.
+
+<!-- He is dedicated to transforming pervasive wireless signals into high-precision digital perceptions of the physical world. Currently, his work focuses on:
 
 - **Ubiquitous Computing & Wireless Sensing**: Developing robust sensing frameworks that leverage ambient signals (e.g., Wi-Fi, Ultrasound) for human-computer interaction and health monitoring.
 
@@ -40,4 +44,4 @@ My research interests lie in the intersection of **Wireless Sensing** and **Mobi
 
 - **Integrated Sensing and Communications (ISAC)**: Designing unified waveforms and cross-layer architectures to enable next-generation networks that communicate and sense simultaneously.
 
-- **Metasurface-Enhanced Sensing (RIS)**: Exploring reconfigurable intelligent surfaces to overcome non-line-of-sight (NLoS) limitations and enhance sensing diversity.
+- **Metasurface-Enhanced Sensing (RIS)**: Exploring reconfigurable intelligent surfaces to overcome non-line-of-sight (NLoS) limitations and enhance sensing diversity. -->
