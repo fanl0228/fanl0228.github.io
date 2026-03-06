@@ -6,17 +6,17 @@ title: Long Fan (樊龙) | NJUPT # the website title (if blank, full name will b
 first_name: Long
 last_name: Fan (樊龙)
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Researcher at Nanjing University of Posts and Telecommunications (NJUPT). Ph.D. from Nanjing University. 
-  Specializing in **Wireless Sensing, ISAC, and mmWave Radar**. 
-  Former Visiting Researcher at NTU Singapore.
+  Email is the best way to reach me regarding research collaborations and academic inquiries.
+description: >
+  Long Fan is a researcher at Nanjing University of Posts and Telecommunications (NJUPT). 
+  He received his Ph.D. from Nanjing University and was a Visiting Researcher at Nanyang Technological University (NTU), Singapore. 
+  His research focuses on wireless sensing, integrated sensing and communications (ISAC), mmWave radar sensing, and intelligent IoT systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-keywords: academic website # add your own keywords or leave empty
+keywords: wireless sensing, ISAC, mmWave radar, RF sensing, integrated sensing and communications, IoT sensing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -80,7 +80,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-FMPB7NW6YN # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -397,7 +397,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)

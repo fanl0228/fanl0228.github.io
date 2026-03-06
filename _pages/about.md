@@ -1,19 +1,22 @@
 ---
 layout: about
-title: About
+title: Hone
 permalink: /
-subtitle: <a href='http://www.njupt.edu.cn/'>Nanjing University of Posts and Telecommunications</a>. Researcher.
+subtitle: Lecturer at <a href='http://www.njupt.edu.cn/'>Nanjing University of Posts and Telecommunications</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: >
+  image_circular: false # crops the image to make it circular
+  address: >
+    <p>Room 327, School of Computer Science</p>
+    <p>Nanjing University of Posts and Telecommunications</p>
     <p>Nanjing, Jiangsu, China</p>
-    <p>Email: fanl@njupt.edu.cn</p>
+  more_info: >
+    <p>📧 <a href="mailto:fanl@njupt.edu.cn">fanl@njupt.edu.cn</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
