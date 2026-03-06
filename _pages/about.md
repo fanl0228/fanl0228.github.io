@@ -7,13 +7,11 @@ subtitle: Lecturer at <a href='http://www.njupt.edu.cn/'>Nanjing University of P
 profile:
   align: right
   image: prof_pic.jpg
+  width: 150px
   image_circular: true # crops the image to make it circular
-  address: >
-    <p>Room 327, School of Computer Science</p>
-    <p>Nanjing University of Posts and Telecommunications</p>
-    <p>Nanjing, Jiangsu, China</p>
   more_info: >
-    <p>📧 <a href="mailto:fanl@njupt.edu.cn">fanl@njupt.edu.cn</a></p>
+    <p>address: Nanjing, Jiangsu, China</p>
+    <p>email: fanl [at] njupt.edu.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
