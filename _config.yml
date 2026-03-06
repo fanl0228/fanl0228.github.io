@@ -2,14 +2,15 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Long Fan (樊龙) | NJUPT # the website title (if blank, full name will be used instead)
 first_name: Long
-middle_name:
 last_name: Fan (樊龙)
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Researcher at Nanjing University of Posts and Telecommunications (NJUPT). Specializing in Wireless Sensing, ISAC, and mmWave Radar.
+  Researcher at Nanjing University of Posts and Telecommunications (NJUPT). Ph.D. from Nanjing University. 
+  Specializing in **Wireless Sensing, ISAC, and mmWave Radar**. 
+  Former Visiting Researcher at NTU Singapore.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -17,7 +18,7 @@ footer_text: >
 
 keywords: academic website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🎓 #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://fanl0228.github.io # the base hostname & protocol for your site
 baseurl: "" #/al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -285,6 +286,8 @@ scholar:
 
   style: apa
   locale: en
+  group_by: year
+  group_order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
@@ -310,7 +313,7 @@ enable_publication_badges:
   altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  inspirehep: false # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
