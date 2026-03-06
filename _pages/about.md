@@ -7,9 +7,8 @@ subtitle: <a href='http://www.njupt.edu.cn/'>Nanjing University of Posts and Tel
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Nanjing University of Posts and Telecommunications</p>
     <p>Nanjing, Jiangsu, China</p>
     <p>Email: fanl@njupt.edu.cn</p>
 
