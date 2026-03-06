@@ -21,11 +21,11 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
+
 # latest_posts:
 #   enabled: true
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
-
 ---
 
 I am a Researcher at the **Nanjing University of Posts and Telecommunications (NJUPT)**. I received my Ph.D. degree from the School of Computer Science and Technology at **Nanjing University**, where I was supervised by [Prof. Lei Xie](https://cs.nju.edu.cn/lxie/). From 2024 to 2025, I was a visiting researcher at the College of Computing and Data Science, **Nanyang Technological University (NTU)**, working with [Prof. Jun Luo](https://personal.ntu.edu.sg/junluo/).
