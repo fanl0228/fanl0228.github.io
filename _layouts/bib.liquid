@@ -184,7 +184,13 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {%- if entry.note -%}
+        {%- if entry.note contains 'CCF' -%}
+          <strong>{{ entry.note | strip }}</strong>
+        {%- else -%}
+          {{ entry.note | strip }}
+        {%- endif -%}
+      {%- endif -%}
     </div>
 
     <!-- Links/Buttons -->
