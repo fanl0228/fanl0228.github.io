@@ -359,9 +359,6 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-    - lighthouse_results/
-    - package.json
-    - package-lock.json
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
