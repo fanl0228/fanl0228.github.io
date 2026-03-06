@@ -4,8 +4,6 @@ title: About
 permalink: /
 subtitle: Lecturer at <a href='http://www.njupt.edu.cn/'>Nanjing University of Posts and Telecommunications</a>.
 
-Email: fanl [at] njupt.edu.cn
-
 profile:
   align: right
   image: prof_pic.jpg
@@ -28,6 +26,8 @@ announcements:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
+
+Email: fanl [at] njupt.edu.cn
 
 Long Fan is currently a Lecturer at the School of Computer Science at Nanjing University of Posts and Telecommunications (NJUPT).
 He received his Ph.D. degree from the School of Computer Science and Technology at Nanjing University (NJU), advised by [Prof. Lei Xie](https://cs.nju.edu.cn/lxie/).

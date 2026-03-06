@@ -42,39 +42,36 @@
 // 专门针对 About 页面侧边栏头像的优化
 .profile {
   float: right;              // 核心：确保侧边栏向右浮动，文字在左侧环绕
-  width: 25% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
+  width: 28% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
   min-width: 180px;          // 设定最小宽度，防止在平板上缩得太小
   margin-left: 2rem;         // 增加头像与左侧文字的间距
-  margin-bottom: 1rem;       // 增加头像下方与 News 的间距
-  margin-top: 2rem;          // 微调：让头像顶部与 Biography 段落对齐
+  margin-bottom: 2rem;       // 增加头像下方与 News 的间距
+  //margin-top: 2rem;          // 微调：让头像顶部与 Biography 段落对齐
   
   img {
     width: 150px !important; // 强制图片宽度，建议 150px-180px
-    height: auto !important; // 确保正圆
+    height: auto !important;
     object-fit: cover;
     margin: 0 auto;          // 居中显示
   }
 
-   // 针对 more_info (YAML中定义的 address/email) 样式优化
-  .more-info, .address {
-    font-size: 0.85rem;      // 稍微缩小字体
-    text-align: center;      // 联系信息居中对齐头像
-    margin-top: 1rem;
-    color: var(--global-text-color-light); 
-    
-    p {
-      margin-bottom: 0.3rem; // 缩小行间距
-    }
-  }
 }
 
-// 适配移动端：手机上恢复全宽显示，避免图片太小
+// 适配移动端：手机上取消负边距，恢复居中
 @media (max-width: 576px) {
-  .profile {
-    width: 100% !important;
-    img {
-      width: 120px !important;
-      height: 120px !important;
-    }
-  }
+.profile {
+   float: none !important;
+   width: 100% !important;
+   margin: 1rem auto !important;
+   margin-top: 0 !important; 
+   
+   img {
+      width: 140px !important;
+      height: 140px !important;
+      margin: 0 auto;
+   }
+   .more-info, .address {
+      text-align: center;
+   }
+}
 }
