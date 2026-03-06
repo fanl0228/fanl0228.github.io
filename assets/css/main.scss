@@ -37,3 +37,36 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+
+// 专门针对 About 页面侧边栏头像的优化
+.profile {
+  width: 30% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
+  margin-top: 1rem;      // 让头像顶部与正文标题对齐
+  
+  img {
+    width: 150px !important; // 强制图片宽度，建议 150px-180px
+    height: 150px !important; // 确保正圆
+    object-fit: cover;
+    margin: 0 auto;          // 居中显示
+  }
+
+  .address {
+    font-size: 0.9rem;      // 缩小下方联系信息字体，更显精致
+    color: var(--global-text-color-light); // 使用主题定义的浅色文字
+    p {
+      margin-bottom: 0.2rem;
+    }
+  }
+}
+
+// 适配移动端：手机上恢复全宽显示，避免图片太小
+@media (max-width: 576px) {
+  .profile {
+    width: 100% !important;
+    img {
+      width: 120px !important;
+      height: 120px !important;
+    }
+  }
+}
