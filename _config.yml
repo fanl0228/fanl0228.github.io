@@ -286,8 +286,6 @@ scholar:
 
   style: apa
   locale: en
-  group_by: year
-  group_order: descending
 
   source: /_bibliography/
   bibliography: papers.bib
