@@ -7,7 +7,7 @@ subtitle: Lecturer at <a href='http://www.njupt.edu.cn/'>Nanjing University of P
 profile:
   align: right
   image: prof_pic.jpg
-  width: 150px
+  width: 100px
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>address: Nanjing, Jiangsu, China</p>
