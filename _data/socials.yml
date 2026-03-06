@@ -9,7 +9,8 @@ email: fanl@njupt.edu.cn # your email address
 scholar_userid: L1arysgAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: assets/img/njupt_logo.png # can be png, svg, jpg
-  title: NJUPT Profile
-  url: https://cs.njupt.edu.cn/
+
+# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#   logo: assets/img/njupt_logo.png # can be png, svg, jpg
+#   title: NJUPT Profile
+#   url: https://cs.njupt.edu.cn/
