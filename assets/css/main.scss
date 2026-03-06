@@ -41,8 +41,8 @@
 
 // 专门针对 About 页面侧边栏头像的优化
 .profile {
-  width: 40% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
-  
+  float: right;              // 核心：确保侧边栏向右浮动，文字在左侧环绕
+  width: 25% !important; // 缩小侧边栏占位宽度，默认通常是 33% 或 41%
   min-width: 180px;          // 设定最小宽度，防止在平板上缩得太小
   margin-left: 2rem;         // 增加头像与左侧文字的间距
   margin-bottom: 1rem;       // 增加头像下方与 News 的间距
