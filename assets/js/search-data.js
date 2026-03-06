@@ -76,6 +76,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=L1arysgAAAAJ", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/fanl0228", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
