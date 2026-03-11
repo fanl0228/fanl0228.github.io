@@ -1,7 +1,63 @@
 metadata:
-  last_updated: '2026-03-04'
+  last_updated: '2026-03-11'
 papers:
-  qc6CJjYAAAAJ:-1WLWRmjvKAC:
-    citations: 4
-    title: THE DULONG-PETIT LAW OF SPECIFIC HEATS
-    year: Unknown Year
+  L1arysgAAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: 'SpiroSense: Transforming Smartphones into Pulmonary Metrics Monitors with Ultrasonic Technology'
+    year: '2025'
+  L1arysgAAAAJ:5nxA0vEk-isC:
+    citations: 0
+    title: 'LED Can Backscatter: Multi-Modal Based 3D Localization via LED-Tag'
+    year: '2024'
+  L1arysgAAAAJ:8k81kl-MbHgC:
+    citations: 6
+    title: Facial Landmark Detection Based on High Precision Spatial Sampling via Millimeter-wave Radar
+    year: '2024'
+  L1arysgAAAAJ:9yKSN-GCB0IC:
+    citations: 29
+    title: 'Deep topology network: A framework based on feedback adjustment learning rate for image classification'
+    year: '2019'
+  L1arysgAAAAJ:KlAtU1dfN6UC:
+    citations: 1
+    title: 'Sense with polyface mirror: Enhancing Wi-Fi sensing diversity via programmable metasurfaces'
+    year: '2026'
+  L1arysgAAAAJ:MXK_kJrjxJIC:
+    citations: 1
+    title: Multi-Modal based 3D Localization via the Channel Adjustment LED-tag
+    year: '2025'
+  L1arysgAAAAJ:Se3iqnhoufwC:
+    citations: 39
+    title: 'mmMic: Multi-modal speech recognition based on mmwave radar'
+    year: '2023'
+  L1arysgAAAAJ:ULOm3_A8WrAC:
+    citations: 0
+    title: 'TSDA: A Temporal-Spatial Data Augmentation for Human Pose Recognition in Point Cloud'
+    year: '2025'
+  L1arysgAAAAJ:YOwf2qJgpHMC:
+    citations: 0
+    title: 'BoneSE: Bone Conduction-Assisted Speech Enhancement Based on COTS Earphone'
+    year: '2025'
+  L1arysgAAAAJ:Zph67rFs4hoC:
+    citations: 2
+    title: 'Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces'
+    year: '2026'
+  L1arysgAAAAJ:_kc_bZDykSQC:
+    citations: 0
+    title: 'CoSense: Bridging Real-Time Performance and Fine-Grained Detail in mmWave Sensing'
+    year: '2026'
+  L1arysgAAAAJ:d1gkVwhDpl0C:
+    citations: 48
+    title: An overview of speech endpoint detection algorithms
+    year: '2020'
+  L1arysgAAAAJ:hqOjcs7Dif8C:
+    citations: 13
+    title: 'Beamforming for sensing: Hybrid beamforming based on transmitter-receiver collaboration for millimeter-wave sensing'
+    year: '2024'
+  L1arysgAAAAJ:u-x6o8ySG0sC:
+    citations: 63
+    title: Optical-flow-based framework to boost video object detection performance with object enhancement
+    year: '2021'
+  L1arysgAAAAJ:u5HHmVD_uO8C:
+    citations: 5
+    title: A stronger aadaptive local dimming method with details preservation
+    year: '2020'
